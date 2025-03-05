@@ -29,9 +29,9 @@ This can include
 
 ***Strengths/Limitations***
 
-    Example applications and good use of data
+  Example applications and good use of data
 
-    Recommendations and considerations
+  Recommendations and considerations
     
 
 **Reference**
