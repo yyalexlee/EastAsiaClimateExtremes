@@ -4,14 +4,10 @@ This repository provides historical data on climate extremes across the East Asi
 
 
 This can include
-
-  data for common usage (currently unavailable due to GitHub's file size limit of 100MB)
-	
-  codes of fucnctions for data processing
-  
-	codes of ML/NN main architectures
-  
-	and so forth.
+        data for common usage (currently unavailable due to GitHub's file size limit of 100MB)
+        codes of fucnctions for data processing
+        codes of ML/NN main architectures
+        and so forth.
 
 **Why important?** affecting human life (health and economics)
 
