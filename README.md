@@ -18,18 +18,21 @@ This can include
   2. Extreme Rainfall
   3. Marine Heat Waves over East Asia Marginal Seas
 
-*Spatial coverage/temporal range*
 
-*Strengths/Limitations*
+***Data format*** 
 
-  Example applications and good use of data
+    if codes given: how to read the data and to isolate/plot timeseries of specific grid point?
 
-  Recommendations and considerations
 
-*Data format* 
+***Spatial coverage/temporal range***
 
-  if codes given: how to read the data and to isolate/plot timeseries of specific grid point?
 
+***Strengths/Limitations***
+
+    Example applications and good use of data
+
+    Recommendations and considerations
+    
 
 **Reference**
 
