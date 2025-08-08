@@ -25,9 +25,21 @@ changes of Frequency per year, Total Days per year, Mean Intensity per decade,
 **Definition** of atmospheric and oceanic extreme phenomena 
 
   1. Extreme Hot Temperature?
-  2. Extreme Rainfall
+  2. Heavy Rainfall
   3. Marine Heat Waves over East Asia Marginal Seas
 
+***Event Characteristics
+Frequency: How often they occur
+Intensity: How severe they are
+Duration: How long they last
+Geographic location: Where they happen
+Seasonality: When they tend to occur
+
+***Impacts
+Human casualties and health effects
+Economic losses (infrastructure, agriculture, etc.)
+Environmental damage (ecosystems, biodiversity)
+Social disruption (migration, displacement)
 
 ***Data format*** 
 
