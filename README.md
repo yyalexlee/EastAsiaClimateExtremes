@@ -20,9 +20,10 @@ changes of Frequency per year, Total Days per year, Mean Intensity per decade,
   4. and so forth
 
 
-**Why important?** affecting human life (health and economics)
+**Why important?** Affecting human life (health and economics)
 
-**Definition** of atmospheric and oceanic extreme phenomena 
+**What?** Type of atmospheric and oceanic climate extremes?
+  - ***Definition*** of extreme phenomena 
 
   1. Extreme Hot Temperature?
   2. Heavy Rainfall
