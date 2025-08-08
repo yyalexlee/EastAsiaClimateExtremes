@@ -30,15 +30,11 @@ changes of Frequency per year, Total Days per year, Mean Intensity per decade,
 
   ***Event Characteristics***
 
-  • Frequency: How often they occur
-  
-  • Intensity: How severe they are
-  
-  • Duration: How long they last
-  
-  • Geographic location: Where they happen
-  
-  • Seasonality: When they tend to occur
+  1. Frequency: How often they occur
+  2. Intensity: How severe they are
+  3. Duration: How long they last
+  4. Geographic location: Where they happen
+  5. Seasonality: When they tend to occur
 
   ***Impacts***
 
