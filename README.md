@@ -28,24 +28,32 @@ changes of Frequency per year, Total Days per year, Mean Intensity per decade,
   2. Heavy Rainfall
   3. Marine Heat Waves over East Asia Marginal Seas
 
-***Event Characteristics***
+  ***Event Characteristics***
 
   • Frequency: How often they occur
+  
   • Intensity: How severe they are
+  
   • Duration: How long they last
+  
   • Geographic location: Where they happen
+  
   • Seasonality: When they tend to occur
 
-***Impacts***
+  ***Impacts***
 
   • Human casualties and health effects
+  
   • Economic losses (infrastructure, agriculture, etc.)
+  
   • Environmental damage (ecosystems, biodiversity)
+  
   • Social disruption (migration, displacement)
 
-***Trends and Projections***
+  ***Trends and Projections***
 
   • Historical trends over decades
+  
   • Future projections under different climate scenarios (e.g., IPCC pathways)
 
 
