@@ -27,7 +27,7 @@ def plot_time_series(date, data, chunk_size,col,lb):
         axs[i].set_ylim(0,6)  # Set y-axis range)
             
 t0 = 0
-with open('./mhwD5G2.oisst.1982-2024.EA1.5.pkl','rb') as file:
+with open('../Data/mhwD5G2.oisst.1982-2024.EA1.5.pkl','rb') as file:
      data = pickle.load(file)
 lat,lon  = data['lat'],data['lon']
 mhws = data['event']
