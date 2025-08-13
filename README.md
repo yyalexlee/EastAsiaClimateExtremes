@@ -10,21 +10,20 @@ This repository provides historical data on climate extremes across the East Asi
 
 This page includes
   1. digial data
-  **Event Profile**
-    start/end date, duration, peak intensity and so forth
-      - extreme thresholds: 90%tile, 95%tile
-      - event criteria: D5G2 (Minimum five-day duration, permitting gaps of up to two days), D3G5 for AHT/MHW 
-                           D1G3, D3G3 for HR
 
-  **Period Extremeness Metrics:**
+    **Event Profile**
 
-    SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95
+      start/end date, duration, peak intensity and so forth
+        - extreme thresholds: 90%tile, 95%tile
+        - event criteria: D5G2 (Minimum five-day duration, permitting gaps of up to two days), D3G5 for AHT/MHW 
+                          D1G3, D3G3 for HR
 
-    Extreme Days: Number of days in the period when SST, T2M, or TP exceeds the threshold (e.g., 90th or 95th percentile).
+    **Period Extremeness Metrics:**
 
-    Max Intensity: Peak SST_e/T2M_e/TP_e observed during the period.
-
-    Impact Factor: Cumulative SST_e/T2M_e/TP_e over the period, representing an integrated measure that captures both the frequency and intensity of extreme events.
+      SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95
+      Extreme Days: Number of days in the period when SST, T2M, or TP exceeds the threshold (e.g., 90th or 95th percentile).
+      Max Intensity: Peak SST_e/T2M_e/TP_e observed during the period.
+      Impact Factor: Cumulative SST_e/T2M_e/TP_e over the period, representing an integrated measure that captures both the frequency and intensity of extreme events.
 
 
   2. Codes for data processing and visualization 
@@ -42,6 +41,7 @@ This page includes
 ***Spatial coverage/temporal range***
 
   EA region: 21-48degN, 114-141degE (Resolution: 1.5, 0.25deg)
+
   Period: 1940-2024(ERA5), 1982-2024(OISST)
 
 ***Data format*** 
@@ -50,7 +50,8 @@ This page includes
 ***Usage***
 
     if codes given: how to read the data and to isolate/plot timeseries of specific grid point?
-  how about adding a table describing example codes given?
+
+    how about adding a table describing example codes given?
 
 **Reference**
 
