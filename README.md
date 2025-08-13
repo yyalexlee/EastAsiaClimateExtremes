@@ -10,40 +10,48 @@ This repository provides historical data on climate extremes across the East Asi
 
 ## Contents
 
-***1. digial data***
+***1. Digial Data***
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Original Data**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Mean Near Surface Temperature(T2M)/Sea Surface TEmperature(SST), Daily/Weekly Sum Total Precipitation(TP)   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Climatological Long-Term Mean and 90/95th percentile thresholds
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Event Profile**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;start/end date, duration, peak intensity and so forth  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extreme thresholds: 90%tile, 95%tile  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;event criteria: D5G2 (Minimum five-day Duration, permitting Gaps of up to two days), D3G5 for AHT/MHW and D1G3, D3G3 for HR
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Start/End date, Duration, Peak Intensity and so forth  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Extreme hresholds: 90%tile, 95%tile  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Event Criteria: D5G2 (Minimum five-day Duration, permitting Gaps of up to two days), D3G5 for AHT/MHW and D1G3, D3G3 for HR  
 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Period Extremeness Metrics:**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extreme Days: Number of days in the period when SST, T2M, or TP exceeds the threshold (e.g., 90th or 95th percentile)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Period(Weekly/Monthly) Extremeness Metrics:**    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extreme Days: Number of days in the period when SST/T2M/TP exceeds the threshold (e.g., 90th or 95th percentile)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max Intensity: Peak SST_e/T2M_e/TP_e observed during the period  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Impact Factor: Cumulative SST_e/T2M_e/TP_e over the period,  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;representing an integrated measure that captures both the frequency and intensity of extreme events  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Impact Factor: Cumulative SST_e/T2M_e/TP_e over the period  
 
-***2. Codes for data processing and visualization*** 
+***2. Codes for Data Processing and Visualization***  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Historical event statistics**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frequeny per year, Total Days per year, Mean Intensity for AHT events (AHT_90)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frequeny per year, Total Days per year, Mean Intensity for HR events (HR_90)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frequeny per year, Total Days per year, Mean Intensity for MHW events (MHW_90)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Historical Event Statistics**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List of Events (AHT, HR, MHW)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Event Statistics: Frequeny, Total Days, Mean Intensity  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Timeseries and Extremeness  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Seasonality and Long-term trend of climate extremes**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seasonal evolution of Event Frequency/Duration/Mean Intensity  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Changes of Frequency per year, Duration per year, Mean Intensity per decade   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Seasonality and Trend of climate extremes**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Annualy Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line 
+
+***3. Graphics***  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Long-term Statistics of Climate Extremes**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Annual Mean Event Frequency/Total Days/Mean Intensity  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Frequency/Total Days/Mean Intensity Change per Decade
 
 
-## Spatial coverage/temporal range  
-&nbsp;&nbsp;&nbsp;&nbsp;EA region: 21-48degN, 114-141degE (Resolution: 1.5, 0.25deg)  
-&nbsp;&nbsp;&nbsp;&nbsp;Period: 1940-2024(ERA5), 1982-2024(OISST)
+
+## Spatial/Temporal Coverage  
+&nbsp;&nbsp;&nbsp;&nbsp;**S**: 21-48degN, 114-141degE with 1.5, 0.25deg resolution  
+&nbsp;&nbsp;&nbsp;&nbsp;**T**: 1940-2024(ERA5), 1982-2024(OISST)
 
 
 ***Data format*** 
-
 
 
 ## Usage  
