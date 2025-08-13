@@ -12,10 +12,10 @@ This repository provides historical data on climate extremes across the East Asi
 
 1. digial data
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Event Profile**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;start/end date, duration, peak intensity and so forth  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extreme thresholds: 90%tile, 95%tile  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;event criteria: D5G2 (Minimum five-day Duration, permitting Gaps of up to two days), D3G5 for AHT/MHW and D1G3, D3G3 for HR
+**Event Profile**  
+start/end date, duration, peak intensity and so forth  
+extreme thresholds: 90%tile, 95%tile  
+event criteria: D5G2 (Minimum five-day Duration, permitting Gaps of up to two days), D3G5 for AHT/MHW and D1G3, D3G3 for HR
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Period Extremeness Metrics:**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95  
