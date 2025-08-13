@@ -13,7 +13,8 @@ This repository provides historical data on climate extremes across the East Asi
 ***1. Digial Data***
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Original Data**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Mean Near Surface Temperature(T2M)/Sea Surface TEmperature(SST), Daily/Weekly Sum Total Precipitation(TP)   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Mean Near Surface Temperature(T2M)/Sea Surface Temperature(SST)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Sum Total Precipitation(TP)   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Climatological Long-Term Mean and 90/95th percentile thresholds
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Event Profile**  
