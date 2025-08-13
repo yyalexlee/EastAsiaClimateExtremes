@@ -8,7 +8,7 @@ This repository provides historical data on climate extremes across the East Asi
 
 
 
-This page includes
+***Contents***
 
 1. digial data
 
@@ -40,17 +40,21 @@ This page includes
 &nbsp;&nbsp;&nbsp;&nbsp;EA region: 21-48degN, 114-141degE (Resolution: 1.5, 0.25deg)  
 &nbsp;&nbsp;&nbsp;&nbsp;Period: 1940-2024(ERA5), 1982-2024(OISST)
 
+
 ***Data format*** 
+
 
 
 ***Usage***  
 &nbsp;&nbsp;&nbsp;&nbsp;if codes given: how to read the data and to isolate/plot timeseries of specific grid point?  
 &nbsp;&nbsp;&nbsp;&nbsp;how about adding a table describing example codes given?  
 
+
 **Reference**  
   https://github.com/ecjoliver/marineHeatWaves  
   Hobday, A.J. et al. (2016), A hierarchical approach to defining marine heatwaves, Progress in Oceanography, 141, pp. 227-238, doi: 10.1016/j.pocean.2015.12.014  
   Westby, Rebecca Marie et al. “Anomalous Temperature Regimes during the Cool Season: Long-Term Trends, Low-Frequency Mode Modulation, and Representation in CMIP5 Simulations.” Journal of Climate 26 (2013): 9061-9076  
+
 
 
 ####################################################################
