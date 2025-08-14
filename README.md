@@ -78,7 +78,7 @@ This repository provides historical data on climate extremes across the East Asi
 **What?** Type of atmospheric and oceanic climate extremes?
   - ***Definition*** of extreme phenomena 
 
-  1. Extreme Hot Temperature?
+  1. Extreme Hot Temperature
   2. Heavy Rainfall
   3. Marine Heat Waves over East Asia Marginal Seas
 
