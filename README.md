@@ -10,7 +10,7 @@ This repository provides historical data on climate extremes across the East Asi
 
 ## Contents
 
-***1. Digial Data***
+***1. Digital Data***
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Original Climate Variables**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Mean Near Surface Temperature(T2M)/Sea Surface Temperature(SST)  
