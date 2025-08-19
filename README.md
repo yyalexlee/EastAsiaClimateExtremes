@@ -56,7 +56,7 @@ This repository provides historical data on climate extremes across the East Asi
   <p>This part is styled with HTML for better layout control.</p>
 </div>
 
-<div style="margin-left: 40px;">
+<div style="margin-left: 200px;">
 
 <table>
   <thead>
