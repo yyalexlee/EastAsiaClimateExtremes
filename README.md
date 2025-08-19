@@ -11,13 +11,13 @@ This repository provides historical data on climate extremes across the East Asi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Event Frequency/Duration/Mean Intensity Change per Decade
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For AHT,*  
-<img width="2020" height="419" alt="aht90_D3G5 era5 1940-2024 EA1 5 h" src="https://github.com/user-attachments/assets/71f9f102-785d-4e1b-8c63-b4462e51268a" />
+<img width="2020" height="462" alt="aht90_D3G5 era5 1940-2024 EA1 5 h" src="https://github.com/user-attachments/assets/25d83a98-2258-4c70-81db-33f1d610aa6c" />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For HR,*  
-<img width="2023" height="419" alt="hr90_D1G3 era5 1940-2024 EA1 5 h" src="https://github.com/user-attachments/assets/989347a2-502f-435a-a140-24244cdc6272" />
+<img width="2020" height="462" alt="hr90_D1G3 era5 1940-2024 EA1 5 h" src="https://github.com/user-attachments/assets/f0e9eb75-711e-4fda-ba99-ef7cb13127fa" />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For MHW,*  
-<img width="2020" height="419" alt="mhw90_D5G2 era5 1940-2024 EA1 5 h" src="https://github.com/user-attachments/assets/d336b984-7f65-4e81-a229-71ceb568a34b" />
+<img width="2020" height="462" alt="mhw90_D5G2 era5 1940-2024 EA1 5 h" src="https://github.com/user-attachments/assets/6e3c2f3d-58a0-4425-ab7d-7a970e717c8d" />
 
 
 ## Contents
