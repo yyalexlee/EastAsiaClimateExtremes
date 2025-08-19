@@ -60,15 +60,7 @@ This repository provides historical data on climate extremes across the East Asi
 >*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
 
 
-### Spatial/Temporal Coverage  
-
-|         |Domain    |Resolution|
-|---------|----------|----------|
-|**Space**|21-48N, 114-141E|1.5 / 0.25deg|
-|**Time** |1940-2024(ERA5), 1982-2024(OISST)|Daily / Weekly|
-  
-
-## Codes for Data Processing and Visualization
+### Codes for Data Processing and Visualization
  
 *for individual grid points within EA domain,*  
   
@@ -81,7 +73,14 @@ This repository provides historical data on climate extremes across the East Asi
 - Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
 - Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line  
 
- 
+## Spatial/Temporal Coverage  
+
+|         |Domain    |Resolution|
+|---------|----------|----------|
+|**Space**|21-48N, 114-141E|1.5 / 0.25deg|
+|**Time** |1940-2024(ERA5), 1982-2024(OISST)|Daily / Weekly|
+  
+
   
   
 ***Data format*** 
