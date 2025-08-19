@@ -75,10 +75,10 @@ This repository provides historical data on climate extremes across the East Asi
  
 ## Spatial/Temporal Coverage  
 
-|          |Domain    |Resolution|
-|----------|----------|----------|
-|**Space** |21-48degN, 114-141degE|1.5/0.25deg
-|**Time**  |1940-2024(ERA5), 1982-2024(OISST)|Daily/Weekly|
+|         |Domain    |Resolution|
+|---------|----------|----------|
+|**Space**|21-48N, 114-141E|1.5 / 0.25deg|
+|**Time** |1940-2024(ERA5), 1982-2024(OISST)|Daily / Weekly|
   
   
   
