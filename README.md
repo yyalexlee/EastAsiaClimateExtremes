@@ -45,13 +45,12 @@ This repository provides historical data on climate extremes across the East Asi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95*  
 
-<div style="margin-left: 2em;">
 |Metric          |Description|
 |----------------|-----------|
 |Extreme Days    |Number of days in the period when *SST_e/T2M_e/TP_e* exceed zero|
 |Max. Intensity  |Peak *SST_e/T2M_e/TP_e* observed during the period|
 |Impact Factor   |Cumulative *SST_e/T2M_e/TP_e* over the period|
-</div>
+
 
 
 
