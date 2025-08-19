@@ -31,8 +31,8 @@ This repository provides historical data on climate extremes across the East Asi
 |--------|-----------|
 |Frequency         |Daily/Weekly|
 |Variables         |Mean Near Surface Temperature(T2M) / Sea Surface Temperature(SST) / Total Precipitation(TP)|
-|Type              |Original Timeseries / Climatological Long-Term Mean / 90/95th Percentile Thresholds|
-|Resources         |ERA5, OISST and ECMWF-hindcast|
+|Type              |Original Timeseries / Climatological Long-Term Mean / 90/95th Percentile Thresholds(p90/p95)|
+|Resources         |ERA5, OISST(only for SST) and ECMWF-hindcast|
 |Ref. Period       |1991-2020(ERA5/OISST, WMO recommendation) / 2004-2023(ECMWF-hindcast)|
 
 
@@ -42,7 +42,7 @@ This repository provides historical data on climate extremes across the East Asi
 |        |Description|
 |--------|-----------|
 |Meta              |***Start/End Date, Duration, Mean/Peak Intensity*** and so forth|            
-|Extreme Thresholds|90%tile, 95%tile|            
+|Extreme Thresholds|p90, p95|            
 |Event Criteria    |D3GG, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
 
 >*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
@@ -60,8 +60,15 @@ This repository provides historical data on climate extremes across the East Asi
 >*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
 
 
- 
-### Codes for Data Processing and Visualization
+### Spatial/Temporal Coverage  
+
+|         |Domain    |Resolution|
+|---------|----------|----------|
+|**Space**|21-48N, 114-141E|1.5 / 0.25deg|
+|**Time** |1940-2024(ERA5), 1982-2024(OISST)|Daily / Weekly|
+  
+
+## Codes for Data Processing and Visualization
  
 *for individual grid points within EA domain,*  
   
@@ -75,13 +82,6 @@ This repository provides historical data on climate extremes across the East Asi
 - Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line  
 
  
-## Spatial/Temporal Coverage  
-
-|         |Domain    |Resolution|
-|---------|----------|----------|
-|**Space**|21-48N, 114-141E|1.5 / 0.25deg|
-|**Time** |1940-2024(ERA5), 1982-2024(OISST)|Daily / Weekly|
-  
   
   
 ***Data format*** 
@@ -122,7 +122,7 @@ This repository provides historical data on climate extremes across the East Asi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Extreme Event Profile**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Start/End date, Duration, Peak Intensity and so forth  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Extreme thresholds: 90%ile, 95%ile  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Extreme thresholds: p90, p95  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Event Criteria: D3GG, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
   
