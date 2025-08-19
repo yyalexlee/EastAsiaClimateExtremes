@@ -30,22 +30,19 @@ This repository provides historical data on climate extremes across the East Asi
 |--------|--------|
 |Frequency   |Daily/Weekly|
 |Variables   |Mean Near Surface Temperature(T2M) / Sea Surface Temperature(SST) / Total Precipitation(TP)|
-|Type        |Original Timeseries|
-|            |Climatological Long-Term Mean|
-|            |90/95th Percentile Thresholds|
+|Type        |Original Timeseries / Climatological Long-Term Mean / 90/95th Percentile Thresholds|
 |Resources   |ERA5, OISST and ECMWF-hindcast|
-|Ref. Period |1991-2020(ERA5/OISST, WMO recommendation)|
-|            |2004-2023(ECMWF-hindcast)|
+|Ref. Period |1991-2020(ERA5/OISST, WMO recommendation) / 2004-2023(ECMWF-hindcast)|
 
 
 
 **Extreme Event Profile**  
 Start/End date, Duration, Peak Intensity and so forth  
 
-|        |        |
-|--------|--------|
-|Extreme Thresholds |90%ile, 95%ile|
-|Event Criteria     |D3GG, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
+|Extreme Thresholds        |Event Criteria          |
+|--------------------------|------------------------|
+|90%ile, 95%ile            |D3GG, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
+
 *e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
 
 **Period(Weekly/Monthly) Extremeness Metrics**  
@@ -59,12 +56,6 @@ Start/End date, Duration, Peak Intensity and so forth
 |Extreme Days   |Number of days in the period when *SST_e/T2M_e/TP_e* exceed zero|
 |Max. Intensity |Peak *SST_e/T2M_e/TP_e* observed during the period|
 |Impact Factor  |Cumulative *SST_e/T2M_e/TP_e* over the period|
-  
-|        |        |
-|--------|--------|
-| Extreme Days   | Number of days when *SST_e/T2M_e/TP_e* exceed zero |
-| Max. Intensity | Peak *SST_e/T2M_e/TP_e* observed during the period |
-| Impact Factor  | Cumulative *SST_e/T2M_e/TP_e* over the period      |  
   
 
 ***2. Codes for Data Processing and Visualization***  
@@ -83,9 +74,10 @@ Start/End date, Duration, Peak Intensity and so forth
 
 ## Spatial/Temporal Coverage  
 
-|**Space** |21-48degN, 114-141degE with 1.5, 0.25deg resolution|
-|------|---------------------------------------------------|
-|**Time**  |1940-2024(ERA5), 1982-2024(OISST)|
+|          |**Space** |**Time**|
+|----------|----------|--------|
+|Domain    |21-48degN, 114-141degE|1940-2024(ERA5), 1982-2024(OISST)|
+|Resolution|1.5/0.25deg|Daily/Weekly|
 
 ***Data format*** 
 
