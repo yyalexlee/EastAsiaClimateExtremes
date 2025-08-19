@@ -22,9 +22,9 @@ This repository provides historical data on climate extremes across the East Asi
 
 ## Contents
 
-***1. Digital Data***
+**1. Digital Data**
 
-**Climate Data**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***Climate Data***  
 
 |        |Description|
 |--------|-----------|
@@ -36,17 +36,17 @@ This repository provides historical data on climate extremes across the East Asi
 
 
 
-**Extreme Event Profile**  
-Start/End date, Duration, Peak Intensity and so forth  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***Extreme Event Profile***: **Start/End date, Duration, Peak Intensity** and so forth  
 
 |        |Description|
 |--------|-----------|
 |Extreme Thresholds |90%ile, 95%ile|            
 |Event Criteria     |D3GG, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
-*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
+
+>*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
 
 
-**Period(Weekly/Monthly) Extremeness Metrics**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***Period(Weekly/Monthly) Extremeness Metrics***  
 
 
 |Metric         |Description|
@@ -55,12 +55,13 @@ Start/End date, Duration, Peak Intensity and so forth
 |Max. Intensity |Peak *SST_e/T2M_e/TP_e* observed during the period|
 |Impact Factor  |Cumulative *SST_e/T2M_e/TP_e* over the period|
 
-*SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95*  
+>*SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95*  
+  
+  
   
 
-
-***2. Codes for Data Processing and Visualization***  
-
+**2. Codes for Data Processing and Visualization**  
+ 
 *for individual grid points within EA domain,*  
   
 **Historical Event Statistics**  
@@ -71,19 +72,20 @@ Start/End date, Duration, Peak Intensity and so forth
 **Seasonality and Trend of Climate Extremes**  
 - Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
 - Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line 
-
-
+  
+  
 ## Spatial/Temporal Coverage  
 
 |          |Domain    |Resolution|
 |----------|----------|----------|
 |**Space** |21-48degN, 114-141degE|1.5/0.25deg
 |**Time**  |1940-2024(ERA5), 1982-2024(OISST)|Daily/Weekly|
-
-
-
+  
+  
+  
 ***Data format*** 
 
+  
 
 ## Usage  
 &nbsp;&nbsp;&nbsp;&nbsp;if codes given: how to read the data and to isolate/plot timeseries of specific grid point?  
