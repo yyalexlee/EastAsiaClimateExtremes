@@ -51,6 +51,38 @@ This repository provides historical data on climate extremes across the East Asi
 |Max. Intensity  |Peak *SST_e/T2M_e/TP_e* observed during the period|
 |Impact Factor   |Cumulative *SST_e/T2M_e/TP_e* over the period|
 
+<div style="margin-left: 40px; background-color: #f9f9f9; padding: 10px;">
+  <h3>Indented Section</h3>
+  <p>This part is styled with HTML for better layout control.</p>
+</div>
+
+<div style="margin-left: 40px;">
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Extreme Days</td>
+      <td>Number of days in the period when <em>SST_e/T2M_e/TP_e</em> exceed zero</td>
+    </tr>
+    <tr>
+      <td>Max. Intensity</td>
+      <td>Peak <em>SST_e/T2M_e/TP_e</em> observed during the period</td>
+    </tr>
+    <tr>
+      <td>Impact Factor</td>
+      <td>Cumulative <em>SST_e/T2M_e/TP_e</em> over the period</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
 
 
 
