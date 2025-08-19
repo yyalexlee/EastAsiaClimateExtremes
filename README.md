@@ -42,7 +42,7 @@ This repository provides historical data on climate extremes across the East Asi
 |        |Description|
 |--------|-----------|
 |Meta              |***Start/End Date, Duration, Mean/Peak Intensity*** and so forth|            
-|Extreme Thresholds|90%ile, 95%ile|            
+|Extreme Thresholds|90%tile, 95%tile|            
 |Event Criteria    |D3GG, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
 
 >*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
@@ -53,11 +53,11 @@ This repository provides historical data on climate extremes across the East Asi
 
 |Metric         |Description|
 |---------------|-----------|
-|Extreme Days      |Number of days in the period when *SST_e/T2M_e/TP_e* exceed zero|
-|Max. Intensity    |Peak *SST_e/T2M_e/TP_e* observed during the period|
-|Impact Factor     |Cumulative *SST_e/T2M_e/TP_e* over the period|
+|Extreme Days      |Number of days in the period when *T2M_e/TP_e/SST_e* exceed zero|
+|Max. Intensity    |Peak *T2M_e/TP_e/SST_e* observed during the period|
+|Impact Factor     |Cumulative *T2M_e/TP_e/SST_e* over the period|
 
->*SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95*  
+>*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
 
 
  
@@ -127,13 +127,13 @@ This repository provides historical data on climate extremes across the East Asi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Period(Weekly/Monthly) Extremeness Metrics**    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extreme Days: Number of days in the period when SST/T2M/TP exceeds the threshold (e.g., 90/95th percentile)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95*  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max Intensity: Peak *SST_e/T2M_e/TP_e* observed during the period  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Impact Factor: Cumulative *SST_e/T2M_e/TP_e* over the period  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extreme Days: Number of days in the period when T2M/TP/SST exceeds the threshold (e.g., 90/95th percentile)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*T2M_e/TP_e/SST_e = T2M/TP/SST - thr_90/95*  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max Intensity: Peak *T2M_e/TP_e/SST_e* observed during the period  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Impact Factor: Cumulative *T2M_e/TP_e/SST_e* over the period  
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95*  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*T2M_e/TP_e/SST_e = T2M/TP/SST - thr_90/95*  
 
 
 ***2. Codes for Data Processing and Visualization***  
