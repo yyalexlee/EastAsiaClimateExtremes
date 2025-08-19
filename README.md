@@ -37,10 +37,11 @@ This repository provides historical data on climate extremes across the East Asi
 
 
 
-***2. Extreme Event Profile***:  **Start/End Date, Duration, Mean/Peak Intensity** and so forth  
+***2. Extreme Event Profile***
 
 |        |Description|
 |--------|-----------|
+|Meta              |***Start/End Date, Duration, Mean/Peak Intensity*** and so forth|            
 |Extreme Thresholds|90%ile, 95%ile|            
 |Event Criteria    |D3GG, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
 
