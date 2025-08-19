@@ -24,9 +24,8 @@ This repository provides historical data on climate extremes across the East Asi
 
 ### Digital Data  
 
-**1. Digital Data**
 
-&nbsp;&nbsp;&nbsp;&nbsp;***Climate Data***  
+***1. Climate Data***  
 
 |        |Description|
 |--------|-----------|
@@ -38,7 +37,7 @@ This repository provides historical data on climate extremes across the East Asi
 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;***Extreme Event Profile***:  **Start/End Date, Duration, Mean/Peak Intensity** and so forth  
+***2. Extreme Event Profile***:  **Start/End Date, Duration, Mean/Peak Intensity** and so forth  
 
 |        |Description|
 |--------|-----------|
@@ -48,7 +47,7 @@ This repository provides historical data on climate extremes across the East Asi
 >*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;***Period(Weekly/Monthly) Extremeness Metrics***  
+***3. Period(Weekly/Monthly) Extremeness Metrics***  
 
 
 |Metric         |Description|
@@ -61,16 +60,16 @@ This repository provides historical data on climate extremes across the East Asi
 
 
  
-**2. Codes for Data Processing and Visualization**  
+### Codes for Data Processing and Visualization
  
 *for individual grid points within EA domain,*  
   
-**Historical Event Statistics**  
+***1. Historical Event Statistics***  
 - List of Events: *AHT, HR, MHW*  
 - Event Statistics: Frequeny, Duration, Mean Intensity  
 - Daily/Weekly Timeseries and Extremeness  
 
-**Seasonality and Trend of Climate Extremes**  
+***2. Seasonality and Trend of Climate Extremes***  
 - Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
 - Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line  
 
