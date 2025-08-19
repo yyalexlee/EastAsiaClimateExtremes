@@ -24,86 +24,68 @@ This repository provides historical data on climate extremes across the East Asi
 
 ***1. Digital Data***
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Climate Data**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Mean Near Surface Temperature(T2M)/Sea Surface Temperature(SST)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Sum Total Precipitation(TP)   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Climatological Long-Term Mean and 90/95th percentile thresholds for ERA5, OISST(SST only) and ECMWF  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reference period: 1991-2020(ERA5, WMO recommendation) / 2004-2023(ECMWF hindcast period)
+**Climate Data**  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Extreme Event Profile**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Start/End date, Duration, Peak Intensity and so forth  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Extreme thresholds: 90%ile, 95%ile  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Event Criteria: D3GG, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
+|        |        |
+|--------|--------|
+|Frequency   |Daily/Weekly|
+|Variables   |Mean Near Surface Temperature(T2M) / Sea Surface Temperature(SST) / Total Precipitation(TP)|
+|Type        |Original Timeseries|
+|            |Climatological Long-Term Mean|
+|            |90/95th Percentile Thresholds|
+|Resources   |ERA5, OISST and ECMWF-hindcast|
+|Ref. Period |1991-2020(ERA5/OISST, WMO recommendation)|
+|            |2004-2023(ECMWF-hindcast)|
+
+
+
+**Extreme Event Profile**  
+Start/End date, Duration, Peak Intensity and so forth  
+
+|        |        |
+|--------|--------|
+|Extreme Thresholds |90%ile, 95%ile|
+|Event Criteria     |D3GG, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
+*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
+
+**Period(Weekly/Monthly) Extremeness Metrics**  
+
+   
+*SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95*  
+
+
+|Metric         |Description|
+|---------------|-----------|
+|Extreme Days   |Number of days in the period when *SST_e/T2M_e/TP_e* exceed zero|
+|Max. Intensity |Peak *SST_e/T2M_e/TP_e* observed during the period|
+|Impact Factor  |Cumulative *SST_e/T2M_e/TP_e* over the period|
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Period(Weekly/Monthly) Extremeness Metrics**    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extreme Days: Number of days in the period when SST/T2M/TP exceeds the threshold (e.g., 90/95th percentile)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95*  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max Intensity: Peak *SST_e/T2M_e/TP_e* observed during the period  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Impact Factor: Cumulative *SST_e/T2M_e/TP_e* over the period  
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95*  
-
-|Metric          |Description|
-|----------------|-----------|
-|Extreme Days    |Number of days in the period when *SST_e/T2M_e/TP_e* exceed zero|
-|Max. Intensity  |Peak *SST_e/T2M_e/TP_e* observed during the period|
-|Impact Factor   |Cumulative *SST_e/T2M_e/TP_e* over the period|
-
-<div style="margin-left: 40px; background-color: #f9f9f9; padding: 10px;">
-  <h3>Indented Section</h3>
-  <p>This part is styled with HTML for better layout control.</p>
-</div>
-
-<div style="margin-left: 200px;">
-
-<table>
-  <thead>
-    <tr>
-      <th>Metric</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Extreme Days</td>
-      <td>Number of days in the period when <em>SST_e/T2M_e/TP_e</em> exceed zero</td>
-    </tr>
-    <tr>
-      <td>Max. Intensity</td>
-      <td>Peak <em>SST_e/T2M_e/TP_e</em> observed during the period</td>
-    </tr>
-    <tr>
-      <td>Impact Factor</td>
-      <td>Cumulative <em>SST_e/T2M_e/TP_e</em> over the period</td>
-    </tr>
-  </tbody>
-</table>
-
-</div>
-
-
-
+|        |        |
+|--------|--------|
+| Extreme Days   | Number of days when *SST_e/T2M_e/TP_e* exceed zero |
+| Max. Intensity | Peak *SST_e/T2M_e/TP_e* observed during the period |
+| Impact Factor  | Cumulative *SST_e/T2M_e/TP_e* over the period      |  
+  
 
 ***2. Codes for Data Processing and Visualization***  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*for individual grid points within EA domain,*  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Historical Event Statistics**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List of Events (*AHT, HR, MHW*)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Event Statistics: Frequeny, Duration, Mean Intensity  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Timeseries and Extremeness  
+*for individual grid points within EA domain,*  
+  
+**Historical Event Statistics**  
+- List of Events: *AHT, HR, MHW*  
+- Event Statistics: Frequeny, Duration, Mean Intensity  
+- Daily/Weekly Timeseries and Extremeness  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Seasonality and Trend of Climate Extremes**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line 
+**Seasonality and Trend of Climate Extremes**  
+- Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
+- Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line 
 
 
 ## Spatial/Temporal Coverage  
-&nbsp;&nbsp;&nbsp;&nbsp;**S**: 21-48degN, 114-141degE with 1.5, 0.25deg resolution  
-&nbsp;&nbsp;&nbsp;&nbsp;**T**: 1940-2024(ERA5), 1982-2024(OISST)
 
+|**Space** |21-48degN, 114-141degE with 1.5, 0.25deg resolution|
+|------|---------------------------------------------------|
+|**Time**  |1940-2024(ERA5), 1982-2024(OISST)|
 
 ***Data format*** 
 
@@ -132,6 +114,46 @@ This repository provides historical data on climate extremes across the East Asi
 ####################################################################  
 ####################################################################  
 ####################################################################  
+***1. Digital Data***
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Climate Data**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Mean Near Surface Temperature(T2M)/Sea Surface Temperature(SST)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Sum Total Precipitation(TP)   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Climatological Long-Term Mean and 90/95th percentile thresholds for ERA5, OISST(SST only) and ECMWF  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reference period: 1991-2020(ERA5, WMO recommendation) / 2004-2023(ECMWF hindcast period)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Extreme Event Profile**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Start/End date, Duration, Peak Intensity and so forth  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Extreme thresholds: 90%ile, 95%ile  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Event Criteria: D3GG, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Period(Weekly/Monthly) Extremeness Metrics**    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extreme Days: Number of days in the period when SST/T2M/TP exceeds the threshold (e.g., 90/95th percentile)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95*  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max Intensity: Peak *SST_e/T2M_e/TP_e* observed during the period  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Impact Factor: Cumulative *SST_e/T2M_e/TP_e* over the period  
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95*  
+
+
+***2. Codes for Data Processing and Visualization***  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*for individual grid points within EA domain,*  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Historical Event Statistics**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List of Events (*AHT, HR, MHW*)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Event Statistics: Frequeny, Duration, Mean Intensity  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Timeseries and Extremeness  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Seasonality and Trend of Climate Extremes**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line 
+
+## Spatial/Temporal Coverage  
+&nbsp;&nbsp;&nbsp;&nbsp;**S**: 21-48degN, 114-141degE with 1.5, 0.25deg resolution  
+&nbsp;&nbsp;&nbsp;&nbsp;**T**: 1940-2024(ERA5), 1982-2024(OISST)
 
 **Why important?** Affecting human life (health and economics)
 
