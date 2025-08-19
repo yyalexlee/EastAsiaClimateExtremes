@@ -45,11 +45,11 @@ This repository provides historical data on climate extremes across the East Asi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*SST_e/T2M_e/TP_e = SST/T2M/TP - thr_90/95*  
 
-|Metric          |Description|
-|----------------|-----------|
-|Extreme Days    |Number of days in the period when *SST_e/T2M_e/TP_e* exceed zero|
-|Max. Intensity  |Peak *SST_e/T2M_e/TP_e* observed during the period|
-|Impact Factor   |Cumulative *SST_e/T2M_e/TP_e* over the period|
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Metric          |Description|
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|----------------|-----------|
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Extreme Days    |Number of days in the period when *SST_e/T2M_e/TP_e* exceed zero|
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Max. Intensity  |Peak *SST_e/T2M_e/TP_e* observed during the period|
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Impact Factor   |Cumulative *SST_e/T2M_e/TP_e* over the period|
 
 
 ***2. Codes for Data Processing and Visualization***  
