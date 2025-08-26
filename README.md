@@ -77,7 +77,7 @@ This repository provides historical data on climate extremes across the East Asi
 
 |         |Domain    |Resolution|
 |---------|----------|----------|
-|**Space**|21-48N, 114-141E|1.5 / 0.25deg|
+|**Space**|21-48N, 114-141E|1.5deg|
 |**Time** |1940-2024(ERA5), 1982-2024(OISST)|Daily / Weekly|
   
 
@@ -97,95 +97,4 @@ This repository provides historical data on climate extremes across the East Asi
   Hobday, A.J. et al. (2016), A hierarchical approach to defining marine heatwaves, Progress in Oceanography, 141, pp. 227-238, doi: 10.1016/j.pocean.2015.12.014  
   https://github.com/ecjoliver/marineHeatWaves  
 
-            
-
-
-
-
-
-
-
   
-####################################################################  
-####################################################################  
-####################################################################  
-####################################################################  
-####################################################################  
-***1. Digital Data***
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Climate Data**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Mean Near Surface Temperature(T2M)/Sea Surface Temperature(SST)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Sum Total Precipitation(TP)   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Climatological Long-Term Mean and 90/95th percentile thresholds for ERA5, OISST(SST only) and ECMWF  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reference period: 1991-2020(ERA5, WMO recommendation) / 2004-2023(ECMWF hindcast period)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Extreme Event Profile**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Start/End date, Duration, Peak Intensity and so forth  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Extreme thresholds: p90, p95  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Event Criteria: D3GG, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
-  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Period(Weekly/Monthly) Extremeness Metrics**    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extreme Days: Number of days in the period when T2M/TP/SST exceeds the threshold (e.g., 90/95th percentile)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*T2M_e/TP_e/SST_e = T2M/TP/SST - thr_90/95*  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max Intensity: Peak *T2M_e/TP_e/SST_e* observed during the period  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Impact Factor: Cumulative *T2M_e/TP_e/SST_e* over the period  
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*T2M_e/TP_e/SST_e = T2M/TP/SST - thr_90/95*  
-
-
-***2. Codes for Data Processing and Visualization***  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*for individual grid points within EA domain,*  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Historical Event Statistics**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List of Events (*AHT, HR, MHW*)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Event Statistics: Frequeny, Duration, Mean Intensity  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily/Weekly Timeseries and Extremeness  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Seasonality and Trend of Climate Extremes**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line 
-
-## Spatial/Temporal Coverage  
-&nbsp;&nbsp;&nbsp;&nbsp;**S**: 21-48degN, 114-141degE with 1.5, 0.25deg resolution  
-&nbsp;&nbsp;&nbsp;&nbsp;**T**: 1940-2024(ERA5), 1982-2024(OISST)
-
-**Why important?** Affecting human life (health and economics)
-
-  suggesting climate disasters happened during recent few years in terms of heat and wet condition particularly over East Asia region? adding fatality and economic loss information.  And any issues in application sectors like further data request and so forth…
-
-**What?** Type of atmospheric and oceanic climate extremes?
-  - ***Definition*** of extreme phenomena 
-
-  1. Extreme Hot Temperature
-  2. Heavy Rainfall
-  3. Marine Heat Waves over East Asia Marginal Seas
-
-  - ***Event Characteristics***
-    1. Frequency: How often they occur
-    2. Intensity: How severe they are
-    3. Duration: How long they last
-    4. Geographic location: Where they happen
-    5. Seasonality: When they tend to occur
-
-  - ***Impacts*** may not possible
-    1. Human casualties and health effects
-    2. Economic losses (infrastructure, agriculture, etc.)
-    3. Environmental damage (ecosystems, biodiversity)
-    4. Social disruption (migration, displacement)
-
-  - ***Trends and Projections***
-    1. Historical trends over decades
-    2. Future projections under different climate scenarios (e.g., IPCC pathways) may not possible ???
-
-
-***Strengths/Limitations***
-
-  Example applications and good use of data
-
-  Recommendations and considerations
-    
-
-
