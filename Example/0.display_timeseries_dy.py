@@ -12,49 +12,40 @@ cols = ['k','o','g']
 ll = [[37.5,130.5],[34.5,124.5],[40.5,135.0]]
 
 
-# Function to plot time series in multiple rows
-def plot_time_series(date, data, chunk_size,col,lb):
-
-    nt = len(date)
-    for i in range(num_chunks):
-        st = i * chunk_size
-        ed = (i + 1) * chunk_size 
-        if ed > nt: ed = nt
-
-        chunk_date = date[st : ed]
-        chunk_data = data[st : ed]
-        axs[i].fill_between(chunk_date, chunk_data, color=col, alpha=0.4, label=lb)
-        axs[i].set_ylim(0,6)  # Set y-axis range)
-            
 t0 = 0
-with open('../Data/mhwD5G2.oisst.1982-2024.EA1.5.pkl','rb') as file:
+hd = 'hr90'
+crt1 = '90'
+crt2 = '_D3G3'
+with open(hd+'.era5.1940-2024.EA1.5.pkl','rb') as file:
      data = pickle.load(file)
 lat,lon  = data['lat'],data['lon']
-mhws = data['event']
+mhws = data['event'+crt1+crt2]
 dates = data['dates'][t0:]
 t = np.array([d.toordinal() for d in dates])
-t_ = np.arange(date(2022,5,1).toordinal(),date(2022,8,31).toordinal()+1)
-dates_out = [date.fromordinal(tt.astype(int)) for tt in t_]
-
 
 plt.close('all')
-plt.figure(figsize=(10,15))
+plt.figure(figsize=(10,12))
 
-for ip,pnt in enumerate(pnts):
+for ip,pnt in enumerate(pnts[:2]):
 
     ly, lx = ll[ip]
     ly_,lx_ = str(ly)+'N',str(lx)+'E'
 
     iy, ix = np.argwhere(lat==ly)[0][0], np.argwhere(lon==lx)[0][0]
  
-    sst = data['sst'][t0:,iy,ix]
-    thresh = data['clim']['thresh'][ly_,lx_][t0:]
-    seas = data['clim']['seas'][ly_,lx_][t0:]
+    sst = data['tp'][t0:,iy,ix] 
+    thresh = data['clim'+crt1]['thresh'][ly_,lx_][t0:]
+    seas = data['clim'+crt1]['seas'][ly_,lx_][t0:]
 
+    if hd == 'hr':
+        sst *= 1000.
+        thresh = np.array(thresh)*1000.
+        seas = np.array(seas)*1000.
+    
     ev = np.argmax(mhws['intensity_max'][ly_,lx_]) # Find largest event
     tev = len(mhws['intensity_max'][ly_,lx_]) # Find largest event
 
-    plt.subplot(3,1,ip+1)
+    plt.subplot(2,1,ip+1)
     # Find indices for all ten MHWs before and after event of interest and shade accordingly
     for ev0 in np.arange(ev-50, tev-1, 1):
         t1 = np.where(t==mhws['time_end'][ly_,lx_][ev0])[0][0]
@@ -71,20 +62,25 @@ for ip,pnt in enumerate(pnts):
     t2 = np.where(t==mhws['time_end'][ly_,lx_][ev])[0][0]
     print(ly_,lx_, dates[t1], dates[t2])
 
+ 
     plt.fill_between(dates[t1:t2+1], sst[t1:t2+1], thresh[t1:t2+1], \
                      color='r')
     # Plot SST, seasonal cycle, threshold, shade MHWs with main event in red
-    plt.plot(dates, sst, 'k-', linewidth=1)
+    plt.plot(dates, sst, 'k-', linewidth=1 )
     plt.plot(dates, thresh, 'r-', linewidth=1)
     plt.plot(dates, seas, 'g-', linewidth=1)
-    plt.title(pnt+' ['+ly_+', '+lx_+']: SST(black), MHW events(shading)', fontsize=15, fontweight='bold')
-    plt.xlim(dates_out[0], dates_out[-1])
-    plt.ylim(np.min(seas) - 1, np.max(seas) + mhws['intensity_max'][ly_,lx_][ev] + 0.5)
-    plt.ylabel(r'SST [$^\circ$C]')
+    plt.xlim(dates[t1-300],dates[t2+300])
+    #plt.xlim(date.fromordinal(t1.astype(int)),date.fromordinal(t2.astype(int)))
+    #plt.ylim(np.min(seas) - 0.1, np.max(seas) + mhws['intensity_max'][ly_,lx_][ev] + 0.05)
+    if hd == 'hr': plt.ylabel(r'TP [mm/day]'); var = 'tp'
+    if hd == 'mhw': plt.ylabel(r'SST [degC]'); var = 'sst'
+    if hd == 'aht': plt.ylabel(r'T2m [degC]'); var = 't2m'
+    #plt.ylabel(r'TP [$^\circ$C]')
+    plt.title(pnt+' ['+ly_+', '+lx_+']: '+var.upper()+'(black), '+hd.upper()+' events(shading)', fontsize=15, fontweight='bold')
 
 fn = './timeseries_3pnts.png'
 plt.savefig(fn, dpi=300, bbox_inches='tight')
-
+ 
 
 
 
