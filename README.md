@@ -24,6 +24,7 @@ This repository provides historical data on climate extremes across the East Asi
   ```
   wget --content-disposition "https://www.dropbox.com/scl/fi/pqm64be2s46y8zpq0zn1e/EA1.5_P9095.zip?rlkey=rh8vnut3gzecn4472xycdr0da&st=63cbrbsl&dl=0"
   ```
+
 ***Spatial/Temporal Coverage***  
 
 |         |Domain    |Resolution|
@@ -31,12 +32,14 @@ This repository provides historical data on climate extremes across the East Asi
 |**Space**|21-48N, 114-141E|1.5deg|
 |**Time** |1940-2024(ERA5), 1982-2024(OISST)|Daily / Weekly|
   
-***Data format*** 
+***Data format***   
+
 
 
 ## Contents  
 
-### 1. Climate Data 
+
+***1. Climate Data*** 
 
 |        |Description|
 |--------|-----------|
@@ -48,7 +51,7 @@ This repository provides historical data on climate extremes across the East Asi
 
 
 
-### 2. Extreme Event Profile
+***2. Extreme Event Profile***
 
 |        |Description|
 |--------|-----------|
@@ -59,7 +62,7 @@ This repository provides historical data on climate extremes across the East Asi
 >*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
 
 
-### 3. Period(Weekly/Monthly) Extremeness Metrics  
+***3. Period(Weekly/Monthly) Extremeness Metrics***  
 
 
 |Metric         |Description|
@@ -73,10 +76,12 @@ This repository provides historical data on climate extremes across the East Asi
 
 ## Usage  
 
+### Codes for Data Processing and Visualization
 &nbsp;&nbsp;&nbsp;&nbsp;if codes given: how to read the data and to isolate/plot timeseries of specific grid point?  
 &nbsp;&nbsp;&nbsp;&nbsp;how about adding a table describing example codes given?  
 
-### Codes for Data Processing and Visualization
+### Ouput Details
+&nbsp;&nbsp;&nbsp;&nbsp;if codes given: how to read the data and to isolate/plot timeseries of specific grid point?  
  
 *for individual grid points within EA domain,*  
   
