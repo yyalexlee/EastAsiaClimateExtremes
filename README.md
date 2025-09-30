@@ -57,7 +57,7 @@ This repository provides historical data on climate extremes across the East Asi
 |--------|-----------|
 |Meta              |***Start/End Date, Duration, Mean/Peak Intensity*** and so forth|            
 |Extreme Thresholds|p90, p95|            
-|Event Criteria    |D3GG, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
+|Event Criteria    |D3G3, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
 
 >*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
 
