@@ -4,20 +4,18 @@ Initiative for Developing an East Asia Climate Extremes Dataset!
 
 This repository provides historical data on climate extremes across the East Asia(EA) region, basically archiving **the events of regular grid-based climate extremes**, and **weekly/monthly extremeness metrics** can be utilized as labels for AI-assisted models to predict anomalous climate events in East Asia. These efforts are part of the climate extreme prediction project led by the ART/APCC team (AI-based prediction Research and Technology at the APEC Climate Center). Currently, the repository focuses on extreme phenomena such as ***anomalously high temperatures(AHT)***, ***heavy rainfall(HR)***, and ***marine heatwaves(MHW)***, with the potential for further expansion. Additionally, it offers code for analyzing and visualizing key statistics and characteristics of atmospheric and oceanic extremes. We hope this page serves as a meaningful and practical starting point for researchers diving into studies on the dynamics and prediction of extreme phenomena. 
 
-<img width="886" height="243" alt="image" src="https://github.com/user-attachments/assets/0a89440f-f957-4998-b83a-cc4ee6a481ce" />
+<img width="4400" height="847" alt="extremes" src="https://github.com/user-attachments/assets/192b100a-c327-41ab-90dc-f2adc006a53a" />
 
 **Long-term Statistics of Climate Extremes**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Annual Mean Event Frequency/Duration/Mean Intensity  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Event Frequency/Duration/Mean Intensity Change per Decade
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For AHT90_D3G5,*  
-<img width="2020" height="462" alt="aht90_D3G5 era5 1940-2024 EA1 5 h" src="https://github.com/user-attachments/assets/25d83a98-2258-4c70-81db-33f1d610aa6c" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For **1982-2024** (ERA5 for AHT/HR, OISST for MHW),*  
+<img width="2029" height="1239" alt="ext90 oisst 1982-2024 EA1 5 h_all" src="https://github.com/user-attachments/assets/ee67788e-2f4b-4991-9ccb-26ba517f658f" />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For HR90_D1G3,*  
-<img width="2020" height="462" alt="hr90_D1G3 era5 1940-2024 EA1 5 h" src="https://github.com/user-attachments/assets/f0e9eb75-711e-4fda-ba99-ef7cb13127fa" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For **1940-2024** (all ERA5 based),*  
+<img width="2029" height="1239" alt="ext90 era5 1940-2024 EA1 5 h_all" src="https://github.com/user-attachments/assets/29d0da57-7a4f-4b91-8430-ce76c9886749" />  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For MHW90_D5G2,*  
-<img width="2020" height="462" alt="mhw90_D5G2 era5 1940-2024 EA1 5 h" src="https://github.com/user-attachments/assets/6e3c2f3d-58a0-4425-ab7d-7a970e717c8d" />
 
 ## Data Download
 
