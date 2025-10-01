@@ -16,13 +16,20 @@ This repository provides historical data on climate extremes across the East Asi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For **1940-2024** (all ERA5 based),*  
 <img width="2029" height="1239" alt="ext90 era5 1940-2024 EA1 5 h_all" src="https://github.com/user-attachments/assets/29d0da57-7a4f-4b91-8430-ce76c9886749" />  
 
-**Heavy Rainfall with 90th percentile threshold**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Timeseries of heavy rainfall with extremes
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heavy Rainfall with 90th percentile threshold
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Timeseries of heavy rainfall with extremes*  
 ![HR with p90](images/hr90_timeseries.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Timeseries of yearly sum of heavy rainfall events (D1G3)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Timeseries of yearly sum of heavy rainfall events (D1G3)*
 ![HR event with p90](images/hr90_D1G3sum_timeseries.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heatmap of monthly count of heavy rainfall events (D1G3) with trend (+/-)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Heatmap of monthly count of heavy rainfall events (D1G3) with trend (+/-)*
 ![HR event with p90](images/hr90_D1G3sum_heatmap.png)
+
+
+**Long-term Statistics of *Weekly* Climate Extremes**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Annual Mean Frequency/Mean Intensity/Max Intensity
+![Weekly HR with p90](images/TP_extreme_maps_1991_2020_p90.png)
+
 
 ## Data Download
 
