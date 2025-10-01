@@ -18,11 +18,11 @@ This repository provides historical data on climate extremes across the East Asi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heavy Rainfall with 90th percentile threshold
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Timeseries of heavy rainfall with extremes*  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*-Timeseries of heavy rainfall with extremes*  
 ![HR with p90](images/hr90_timeseries.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Timeseries of yearly sum of heavy rainfall events (D1G3)*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*-Timeseries of yearly sum of heavy rainfall events (D1G3)*
 ![HR event with p90](images/hr90_D1G3sum_timeseries.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Heatmap of monthly count of heavy rainfall events (D1G3) with trend (+/-)*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*-Heatmap of monthly count of heavy rainfall events (D1G3) with trend (+/-)*
 ![HR event with p90](images/hr90_D1G3sum_heatmap.png)
 
 
