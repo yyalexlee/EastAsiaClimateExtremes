@@ -16,6 +16,7 @@ This repository provides historical data on climate extremes across the East Asi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For **1940-2024** (all ERA5 based),*  
 <img width="2029" height="1239" alt="ext90 era5 1940-2024 EA1 5 h_all" src="https://github.com/user-attachments/assets/29d0da57-7a4f-4b91-8430-ce76c9886749" />  
 
+![Heavy Rainfall with 90th percentile threshold](images/hr90_timeseries.png)
 
 ## Data Download
 
