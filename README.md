@@ -82,8 +82,8 @@ This repository provides historical data on climate extremes across the East Asi
 ### Codes for Data Processing and Visualization
 | Code File | Description | Location |
 | --- | --- | --- |
-| `TART_visualization1.ipynb` | Code for timeseries and heatmap visualization | /codes
-| `TART_visualization2.ipynb` | Code for 2-D map visualization for climatological extreme event statistics | /codes
+| `TART_visualization1.ipynb` | Code for timeseries and heatmap visualization | EastAsiaClimateExtremes/Codes/
+| `TART_visualization2.ipynb` | Code for 2-D map visualization for climatological extreme event statistics | EastAsiaClimateExtremes/Codes/
 
 &nbsp;&nbsp;&nbsp;&nbsp;if codes given: how to read the data and to isolate/plot timeseries of specific grid point?  
 &nbsp;&nbsp;&nbsp;&nbsp;how about adding a table describing example codes given?  
