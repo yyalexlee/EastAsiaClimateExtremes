@@ -1,10 +1,13 @@
+
 import pickle
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import date
 from matplotlib.gridspec import GridSpec
+import os
 
+PATH_data = "/data_sata/makim/inventory/Data/EA1.5_P9095/"
 
 ## grid points interested ##
 pnts = ['Dokdo','YS','EJS']
@@ -16,7 +19,7 @@ t0 = 0
 hd = 'hr90'
 crt1 = '90'
 crt2 = '_D3G3'
-with open(hd+'.era5.1940-2024.EA1.5.pkl','rb') as file:
+with open(os.path.join(PATH_data, hd+'.era5.1940-2024.EA1.5.pkl'),'rb') as file:
      data = pickle.load(file)
 lat,lon  = data['lat'],data['lon']
 mhws = data['event'+crt1+crt2]
@@ -24,7 +27,7 @@ dates = data['dates'][t0:]
 t = np.array([d.toordinal() for d in dates])
 
 plt.close('all')
-plt.figure(figsize=(10,12))
+plt.figure(figsize=(15,8))
 
 for ip,pnt in enumerate(pnts[:2]):
 
@@ -72,14 +75,14 @@ for ip,pnt in enumerate(pnts[:2]):
     plt.xlim(dates[t1-300],dates[t2+300])
     #plt.xlim(date.fromordinal(t1.astype(int)),date.fromordinal(t2.astype(int)))
     #plt.ylim(np.min(seas) - 0.1, np.max(seas) + mhws['intensity_max'][ly_,lx_][ev] + 0.05)
-    if hd == 'hr': plt.ylabel(r'TP [mm/day]'); var = 'tp'
+    if hd == 'hr90': plt.ylabel(r'TP [mm/day]'); var = 'tp'
     if hd == 'mhw': plt.ylabel(r'SST [degC]'); var = 'sst'
     if hd == 'aht': plt.ylabel(r'T2m [degC]'); var = 't2m'
     #plt.ylabel(r'TP [$^\circ$C]')
     plt.title(pnt+' ['+ly_+', '+lx_+']: '+var.upper()+'(black), '+hd.upper()+' events(shading)', fontsize=15, fontweight='bold')
 
-fn = './timeseries_3pnts.png'
-plt.savefig(fn, dpi=300, bbox_inches='tight')
+# fn = './timeseries_3pnts.png'
+# plt.savefig(fn, dpi=300, bbox_inches='tight')
  
 
 
