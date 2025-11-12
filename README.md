@@ -9,13 +9,6 @@ This repository provides historical data on climate extremes across the East Asi
 *add figures or text here about how to define extremes?*
 
 
-## Requirements
-- Python 3.X
-- matplotlib == ?
-- numpy == ?
-- pandas == ?
-
-
 
 ## Data Download
 
