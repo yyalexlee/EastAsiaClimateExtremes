@@ -6,7 +6,7 @@ This repository provides historical data on climate extremes across the East Asi
 
 <img width="4400" height="847" alt="extremes" src="https://github.com/user-attachments/assets/192b100a-c327-41ab-90dc-f2adc006a53a" />
 
-add figures here about how to define extremes?
+*add figures or text here about how to define extremes?*
 
 
 ## Requirements
@@ -73,7 +73,7 @@ add figures here about how to define extremes?
 
 ## Usage  
 
-add examples of running python codes?
+*add examples of running python codes?*
 
 ### Codes for Data Processing and Visualization
 | Code File | Description | Location |
@@ -88,7 +88,7 @@ add examples of running python codes?
 
 ## Ouput Details
 
-add some examples of extreme Statistic data saved in csv or nc format?
+*add some examples of extreme Statistic data saved in csv or nc format?*
 
 **Long-term Statistics of Climate Extremes**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Annual Mean Event Frequency/Duration/Mean Intensity  
