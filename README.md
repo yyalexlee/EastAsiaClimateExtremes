@@ -6,20 +6,14 @@ This repository provides historical data on climate extremes across the East Asi
 
 <img width="4400" height="847" alt="extremes" src="https://github.com/user-attachments/assets/192b100a-c327-41ab-90dc-f2adc006a53a" />
 
-**Long-term Statistics of Climate Extremes**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Annual Mean Event Frequency/Duration/Mean Intensity  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Event Frequency/Duration/Mean Intensity Change per Decade
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For **1982-2024** (ERA5 for AHT/HR, OISST for MHW),*  
-<img width="2029" height="1239" alt="ext90 oisst 1982-2024 EA1 5 h_all" src="https://github.com/user-attachments/assets/ee67788e-2f4b-4991-9ccb-26ba517f658f" />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For **1940-2024** (all ERA5 based),*  
-<img width="2029" height="1239" alt="ext90 era5 1940-2024 EA1 5 h_all" src="https://github.com/user-attachments/assets/29d0da57-7a4f-4b91-8430-ce76c9886749" />  
+## Requirements
+- Python 3.X
+- matplotlib == ?
+- numpy == ?
+- pandas == ?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heavy Rainfall with 90th percentile threshold
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Heatmap of monthly count of heavy rainfall events (D1G3) with trend (+/-)*
-![HR event with p90](images/hr90_D1G3sum_heatmap.png)
 
 
 ## Data Download
@@ -39,8 +33,7 @@ This repository provides historical data on climate extremes across the East Asi
 
 
 
-## Contents  
-
+## Contents (-> Data? or Data Description)
 
 ***1. Climate Data*** 
 
@@ -51,7 +44,6 @@ This repository provides historical data on climate extremes across the East Asi
 |Type              |Original Timeseries, Climatological Long-Term Mean, 90/95th Percentile Thresholds(p90/p95)|
 |Resources         |ERA5, OISST(only for SST) and ECMWF-hindcast|
 |Ref. Period       |1991-2020(ERA5/OISST, WMO recommendation), 2004-2023(ECMWF-hindcast)|
-
 
 
 ***2. Extreme Event Profile***
@@ -77,7 +69,10 @@ This repository provides historical data on climate extremes across the East Asi
 >*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
 
 
+
 ## Usage  
+
+add examples of running python codes?
 
 ### Codes for Data Processing and Visualization
 | Code File | Description | Location |
@@ -88,7 +83,25 @@ This repository provides historical data on climate extremes across the East Asi
 &nbsp;&nbsp;&nbsp;&nbsp;if codes given: how to read the data and to isolate/plot timeseries of specific grid point?  
 &nbsp;&nbsp;&nbsp;&nbsp;how about adding a table describing example codes given?  
 
-### Ouput Details
+
+
+## Ouput Details
+
+**Long-term Statistics of Climate Extremes**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Annual Mean Event Frequency/Duration/Mean Intensity  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Event Frequency/Duration/Mean Intensity Change per Decade
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For **1982-2024** (ERA5 for AHT/HR, OISST for MHW),*  
+<img width="2029" height="1239" alt="ext90 oisst 1982-2024 EA1 5 h_all" src="https://github.com/user-attachments/assets/ee67788e-2f4b-4991-9ccb-26ba517f658f" />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For **1940-2024** (all ERA5 based),*  
+<img width="2029" height="1239" alt="ext90 era5 1940-2024 EA1 5 h_all" src="https://github.com/user-attachments/assets/29d0da57-7a4f-4b91-8430-ce76c9886749" />  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heavy Rainfall with 90th percentile threshold
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Heatmap of monthly count of heavy rainfall events (D1G3) with trend (+/-)*
+![HR event with p90](images/hr90_D1G3sum_heatmap.png)
+
 &nbsp;&nbsp;&nbsp;&nbsp;if codes given: how to read the data and to isolate/plot timeseries of specific grid point?  
  
 *for individual grid points within EA domain,*  
@@ -104,12 +117,19 @@ This repository provides historical data on climate extremes across the East Asi
 
  
 
-
-
-
 ## Reference
   Westby, Rebecca Marie et al. “Anomalous Temperature Regimes during the Cool Season: Long-Term Trends, Low-Frequency Mode Modulation, and Representation in CMIP5 Simulations.” Journal of Climate 26 (2013): 9061-9076  
   Hobday, A.J. et al. (2016), A hierarchical approach to defining marine heatwaves, Progress in Oceanography, 141, pp. 227-238, doi: 10.1016/j.pocean.2015.12.014  
   https://github.com/ecjoliver/marineHeatWaves  
 
-  
+
+
+## Citation
+
+
+
+## Contact
+
+
+
+## Acknowledgments
