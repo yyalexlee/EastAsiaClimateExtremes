@@ -2,7 +2,7 @@
 (미애 박사님의 코드 설명이 여기로 오면 좋겠다는 제안)
 ### Usage  
 *add examples of running python codes?*  
-&nbsp;&nbsp;&nbsp;&nbsp;if codes given: how to read the data and to isolate/plot timeseries of specific grid point?  (이 문장들은 필요없는 듯)
+&nbsp;&nbsp;&nbsp;&nbsp;if codes given: how to read the data and to isolate/plot timeseries of specific grid point?  (위/이/아래 문장들은 필요없는 듯)  
 &nbsp;&nbsp;&nbsp;&nbsp;how about adding a table describing example codes given?  
 
 ### Codes for Data Processing and Visualization
