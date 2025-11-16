@@ -8,7 +8,15 @@
 |**Time** |1940-2024(ERA5), 1982-2024(OISST), ECMWF-hindcast version 2016 & 2024|Daily / Weekly|  
   
 &nbsp;  
-***2. Climate Data*** 
+***2. Data format*** 
+
+|        |Desscription|
+|--------|------------|
+|pickle|d           |
+|NetCDF|xarry |  
+
+&nbsp;  
+***3. Climate Data***  
 
 |        |Description|
 |--------|-----------|
@@ -18,14 +26,14 @@
 |Resources         |ERA5, OISST(only for SST) and ECMWF-hindcast|
 |Ref. Period       |1991-2020(ERA5/OISST, WMO recommendation), 2004-2023(ECMWF-hindcast)|  
 
-**2.1. ERA5**  
+**3.1. ERA5**  
 &nbsp;  
   
-**2.2. OISST**  
+**3.2. OISST**  
 &nbsp;  
 
   
-**2.3. ECMWF-hindcast datasets**  
+**3.3. ECMWF-hindcast datasets**  
 **The ECMWF-hindcast NetCDF data1** was reconstructed from ECMWF Hindcast versions **2016** and **2024**, containing:
 - Mean temperature (T2M)
 - Sea surface temperature (SST)
