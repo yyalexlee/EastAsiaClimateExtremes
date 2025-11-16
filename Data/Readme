@@ -2,20 +2,3 @@ This directory should include historical data on East Asia Climate Extremes isol
 
 To download the compressed dataset, use the following command:
 > wget --content-disposition "https://www.dropbox.com/scl/fi/pqm64be2s46y8zpq0zn1e/EA1.5_P9095.zip?rlkey=rh8vnut3gzecn4472xycdr0da&st=63cbrbsl&dl=0"
-
-
-## 📦 Data Description
-***1. Climate Data*** 
-
-|        |Description|
-|--------|-----------|
-|Frequency         |Daily/Weekly|
-|Variables         |Mean Near Surface Temperature(T2M), Sea Surface Temperature(SST), Total Precipitation(TP)|
-|Type              |Original Timeseries, Climatological Long-Term Mean, 90/95th Percentile Thresholds(p90/p95)|
-|Resources         |ERA5, OISST(only for SST) and ECMWF-hindcast|
-|Ref. Period       |1991-2020(ERA5/OISST, WMO recommendation), 2004-2023(ECMWF-hindcast)|  
-
-**1.1. ECMWF-hindcast  
-
-
-
