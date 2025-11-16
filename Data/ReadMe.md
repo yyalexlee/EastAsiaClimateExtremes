@@ -14,7 +14,7 @@
 **1.2. OISST**
 
 
-**1.3. ECMWF-hindcast**  
+**1.3. ECMWF-hindcast datasets**  
 The ECMWF-hindcast NetCDF data1 was reconstructed from ECMWF Hindcast versions **2016** and **2024**, containing:
 - Mean temperature (T2M)
 - Sea surface temperature (SST)
