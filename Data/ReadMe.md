@@ -12,8 +12,8 @@
 
 |        |Desscription|
 |--------|------------|
-|pickle|d           |
-|NetCDF|xarry |  
+|Pickle|Easy to use by **importing pickle** (e.g. import pickle)|
+|NetCDF|If you have **Python version 3.8 or higher**, you can easily read **nc files** with **xarray**|  
 
 &nbsp;  
 ***3. Climate Data***  
@@ -27,13 +27,13 @@
 |Ref. Period       |1991-2020(ERA5/OISST, WMO recommendation), 2004-2023(ECMWF-hindcast)|  
 
 **3.1. ERA5**  
-&nbsp;  
+(없어도 됨. 그냥 제안)  &nbsp;  
   
 **3.2. OISST**  
-&nbsp;  
-
+(없어도 됨. 그냥 제안 -> 아래 넘버링이 3.1로 해도 됨)  &nbsp;  
   
-**3.3. ECMWF-hindcast datasets**  
+&nbsp;  
+**3.3. ECMWF-hindcast datasets**  or 3.1. ECMWF-hindcast datasets  
 **The ECMWF-hindcast NetCDF data1** was reconstructed from ECMWF Hindcast versions **2016** and **2024**, containing:
 - Mean temperature (T2M)
 - Sea surface temperature (SST)
@@ -42,5 +42,5 @@
 For each forecast initialization date, data corresponding to **lead week 3 (days 15–21 after initialization)**  
 were extracted and reorganized into daily records.
 
-**The ECMWF-hindcast NetCDF data2** was generated based on **data 1**, 90th-percentile climatological thresholds nc file (eg., `t2m_clim90th`) were computed for each ECMWF Hindcast version using the forecast issued dates.  
+**The ECMWF-hindcast NetCDF data2** was generated based on **data 1**, 90th-percentile climatological thresholds nc file (e.g., `t2m_clim90th`) were computed for each ECMWF Hindcast version using the forecast issued dates.  
 
