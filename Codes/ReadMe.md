@@ -5,7 +5,7 @@
 &nbsp; 
 
 
-### 📊 Output Examples
+### 📊 Output Examples (or Output Details?)
 (그냥: 메인 페이지에 있는 output 결과 이미지들 샘플이 여기로? 오면 좋겠다는 의견 제안)  
 **Example Code 1:**  
 
