@@ -23,4 +23,4 @@ The ECMWF-hindcast NetCDF data1 was reconstructed from ECMWF Hindcast versions *
 For each forecast initialization date, data corresponding to **lead week 3 (days 15–21 after initialization)**  
 were extracted and reorganized into daily records.
 
-The ECMWF-hindcast NetCDF data2 was generated based on *data 1*, 90th-percentile climatological thresholds (eg., `t2m_clim90th`) were computed for each ECMWF Hindcast version using the forecast issued dates.  
+The ECMWF-hindcast NetCDF data2 was generated based on **data 1**, 90th-percentile climatological thresholds (eg., `t2m_clim90th`) were computed for each ECMWF Hindcast version using the forecast issued dates.  
