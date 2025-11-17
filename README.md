@@ -4,7 +4,8 @@ Initiative for Developing an East Asia Climate Extremes Dataset!
 
 This repository provides historical data on climate extremes across the East Asia(EA) region, basically archiving **the events of regular grid-based climate extremes**, and **weekly/monthly extremeness metrics** can be utilized as labels for AI-based(or -assisted) models to predict anomalous climate events in East Asia. These efforts are part of the climate extreme prediction project led by the ART/APCC team (AI-based prediction Research and Technology at the APEC Climate Center). Currently, the repository focuses on extreme phenomena such as ***anomalously high temperatures(AHT)***, ***heavy rainfall(HR)***, and ***marine heatwaves(MHW)***, with the potential for further expansion. Additionally, it offers codes for analyzing and visualizing key statistics and characteristics of atmospheric and oceanic extremes. We hope this serves as a meaningful and practical starting point for researchers diving into studies on the dynamics and prediction of extreme phenomena. 
 
-<img width="4400" height="847" alt="extremes" src="https://github.com/user-attachments/assets/192b100a-c327-41ab-90dc-f2adc006a53a" />
+<img width="1134" height="434" alt="image" src="https://github.com/user-attachments/assets/0a7e8a79-67e8-4c6c-b801-477b9c28cb90" />
+
 
 *add figures or text here about how to define extremes?*
 
@@ -27,7 +28,7 @@ This repository provides historical data on climate extremes across the East Asi
 
 
 
-## Contents (-> Data? or Data Description)
+## Data Description
 
 ***1. Climate Data*** 
 
@@ -89,9 +90,6 @@ This repository provides historical data on climate extremes across the East Asi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For **1982-2024** (ERA5 for AHT/HR, OISST for MHW),*  
 <img width="2029" height="1239" alt="ext90 oisst 1982-2024 EA1 5 h_all" src="https://github.com/user-attachments/assets/ee67788e-2f4b-4991-9ccb-26ba517f658f" />
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For **1940-2024** (all ERA5 based),*  
-<img width="2029" height="1239" alt="ext90 era5 1940-2024 EA1 5 h_all" src="https://github.com/user-attachments/assets/29d0da57-7a4f-4b91-8430-ce76c9886749" />  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heavy Rainfall with 90th percentile threshold
 
