@@ -6,9 +6,6 @@ This repository provides historical data on climate extremes across the East Asi
 
 <img width="6503" height="1915" alt="trend" src="https://github.com/user-attachments/assets/954688b8-c6b3-48d8-b852-cea6c82c7955" />
 
-*add figures or text here about how to define extremes?*
-
-
 
 ## Data Download
 
@@ -24,7 +21,6 @@ This repository provides historical data on climate extremes across the East Asi
 |**Time** |1940-2024(ERA5), 1982-2024(OISST)|Daily / Weekly|
   
 ***Data format***   
-
 
 
 ## Data Description
