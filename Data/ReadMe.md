@@ -48,7 +48,7 @@ wget --content-disposition "https://www.dropbox.com/scl/fi/pqm64be2s46y8zpq0zn1e
 &nbsp;  
 ***5. Data format*** 
 
-|        |Desscription|
+|        |Description|
 |--------|------------|
 |Pickle|Easy to use by **importing pickle** (e.g. import pickle)|
 |NetCDF|If you have **Python version 3.8 or higher**, you can easily read **nc files** with **xarray**|  
