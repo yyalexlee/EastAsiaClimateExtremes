@@ -63,25 +63,15 @@ This repository provides historical data on climate extremes across the East Asi
 | `TART_visualization1.ipynb` | Code for timeseries and heatmap visualization | EastAsiaClimateExtremes/Codes/
 | `TART_visualization2.ipynb` | Code for 2-D map visualization for climatological extreme event statistics | EastAsiaClimateExtremes/Codes/
 
-&nbsp;&nbsp;&nbsp;&nbsp;if codes given: how to read the data and to isolate/plot timeseries of specific grid point?  
-&nbsp;&nbsp;&nbsp;&nbsp;how about adding a table describing example codes given?  
-
-
 
 ## Ouput Details
+|Type      | Outputs|
+|----------|--------|
+|Timeseries|Daily extreme events, Yearly event counts|
+|2D maps   |Frequency, Mean Intensity, Max Intensity|
+|Heatmaps  |Monthly Event Counts+Trend(+/-)|
 
-*add some examples of extreme Statistic data saved in csv or nc format?*
-
-**Long-term Statistics of Climate Extremes**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Annual Mean Event Frequency/Duration/Mean Intensity  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heavy Rainfall with 90th percentile threshold
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Heatmap of monthly count of heavy rainfall events (D1G3) with trend (+/-)*
-![HR event with p90](images/hr90_D1G3sum_heatmap.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;if codes given: how to read the data and to isolate/plot timeseries of specific grid point?  
- 
+Delete below?
 *for individual grid points within EA domain,*  
   
 ***1. Historical Event Statistics***  
