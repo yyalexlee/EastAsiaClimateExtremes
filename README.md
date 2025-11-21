@@ -55,10 +55,7 @@ This repository provides historical data on climate extremes across the East Asi
 >*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
 
 
-
 ## Usage  
-
-*add examples of running python codes?*
 
 ### Codes for Data Processing and Visualization
 | Code File | Description | Location |
