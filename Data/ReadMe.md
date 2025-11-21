@@ -46,7 +46,7 @@ wget --content-disposition "https://www.dropbox.com/scl/fi/pqm64be2s46y8zpq0zn1e
 >*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
 
 &nbsp;  
-***5. Data format*** 
+***5. Data Format*** 
 
 |        |Description|
 |--------|------------|
