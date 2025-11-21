@@ -65,11 +65,11 @@ This repository provides historical data on climate extremes across the East Asi
 
 
 ## Ouput Details
-|Type      | Outputs|
-|----------|--------|
-|Timeseries|Daily extreme events, Yearly event counts|
-|2D maps   |Frequency, Mean Intensity, Max Intensity|
-|Heatmaps  |Monthly Event Counts+Trend(+/-)|
+| Outputs  |Visualization | Data Format|
+|----------|--------|--------|
+|Daily extreme events, Yearly event counts|Timeseries| NetCDF|
+|Frequency, Mean Intensity, Max Intensity|2D maps   | NetCDF|
+|Monthly Event Counts+Trend(+/-)|Heatmaps  | NetCDF|
 
 Delete below?
 *for individual grid points within EA domain,*  
