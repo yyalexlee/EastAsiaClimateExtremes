@@ -13,6 +13,86 @@ This repository provides historical data on climate extremes across the East Asi
   wget --content-disposition "https://www.dropbox.com/scl/fi/pqm64be2s46y8zpq0zn1e/EA1.5_P9095.zip?rlkey=rh8vnut3gzecn4472xycdr0da&st=63cbrbsl&dl=0"
   ```
   
+## Data Description
+
+***Spatial/Temporal Coverage***  
+
+|         |Domain    |Resolution|
+|---------|----------|----------|
+|**Space**|21-48N, 114-141E|1.5deg|
+|**Time** |1940-2024(ERA5), 1982-2024(OISST)|Daily / Weekly|
+
+***1. Climate Data*** 
+
+|        |Description|
+|--------|-----------|
+|Frequency         |Daily/Weekly|
+|Variables         |Mean Near Surface Temperature(T2M), Sea Surface Temperature(SST), Total Precipitation(TP)|
+|Type              |Original Timeseries, Climatological Long-Term Mean, 90/95th Percentile Thresholds(p90/p95)|
+|Resources         |ERA5, OISST(only for SST) and ECMWF-hindcast|
+|Ref. Period       |1991-2020(ERA5/OISST, WMO recommendation), 2004-2023(ECMWF-hindcast)|
+
+
+***2. Extreme Event Profile***
+
+|        |Description|
+|--------|-----------|
+|Meta              |***Start/End Date, Duration, Mean/Peak Intensity*** and so forth|            
+|Extreme Thresholds|p90, p95|            
+|Event Criteria    |D3G5, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
+
+>*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
+
+
+***3. Period(Weekly/Monthly) Extremeness Metrics***  
+
+|Metric         |Description|
+|---------------|-----------|
+|Extreme Days      |Number of days in the period when *T2M_e/TP_e/SST_e* exceed zero|
+|Max. Intensity    |Peak *T2M_e/TP_e/SST_e* observed during the period|
+|Impact Factor     |Cumulative *T2M_e/TP_e/SST_e* over the period|
+
+>*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
+
+
+## Usage  
+
+### Codes for Data Processing and Visualization
+| Code File | Description | Location |
+| --- | --- | --- |
+| `TART_visualization1.ipynb` | Code for timeseries and heatmap visualization | EastAsiaClimateExtremes/Codes/
+| `TART_visualization2.ipynb` | Code for 2-D map visualization for climatological extreme event statistics | EastAsiaClimateExtremes/Codes/
+
+&nbsp;&nbsp;&nbsp;&nbsp;if codes given: how to read the data and to isolate/plot timeseries of specific grid point?  
+&nbsp;&nbsp;&nbsp;&nbsp;how about adding a table describing example codes given?  
+
+
+
+## Ouput Details
+
+*add some examples of extreme Statistic data saved in csv or nc format?*
+
+**Long-term Statistics of Climate Extremes**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Annual Mean Event Frequency/Duration/Mean Intensity  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heavy Rainfall with 90th percentile threshold
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Heatmap of monthly count of heavy rainfall events (D1G3) with trend (+/-)*
+![HR event with p90](images/hr90_D1G3sum_heatmap.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;if codes given: how to read the data and to isolate/plot timeseries of specific grid point?  
+ 
+*for individual grid points within EA domain,*  
+  
+***1. Historical Event Statistics***  
+- List of Events: *AHT, HR, MHW*  
+- Event Statistics: Frequeny, Duration, Mean Intensity  
+- Daily/Weekly Timeseries and Extremeness  
+
+***2. Seasonality and Trend of Climate Extremes***  
+- Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
+- Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line  
+
 
 
 
