@@ -24,7 +24,7 @@
 |Variables         |Mean Near Surface Temperature(T2M), Sea Surface Temperature(SST), Total Precipitation(TP)|
 |Type              |Original Timeseries, Climatological Long-Term Mean, 90/95th Percentile Thresholds(p90/p95)|
 |Resources         |ERA5, OISST(only for SST) and ECMWF-hindcast|
-|Ref. Period       |1991-2020(ERA5/OISST, WMO recommendation), 2004-2023(ECMWF-hindcast)|  
+|Ref. Period       |1991-2020(ERA5/OISST, WMO recommendation), <br> 2004-2023(for ver.2024 of ECMWF-hindcast), 1996-2015(for ver.2016 of ECMWF-hindcast)|  
 
 **3.1. ERA5**  
 (그냥 제안)  &nbsp;  
@@ -36,6 +36,12 @@
 **3.3. ECMWF-hindcast datasets**  or 3.1. ECMWF-hindcast datasets  
 **The ECMWF-hindcast NetCDF data1** was reconstructed from ECMWF Hindcast versions **2016** and **2024**.
 For each forecast initialization date, data corresponding to **lead week 3 (days 15–21 after initialization)** were extracted and reorganized into daily records.  
+  
+| data1 information (***e.g., nc file: v2024_ECMWF_hindcast_T2M_w3_2004-2023.nc***) |
+| :---|
+|Dimensions: (time: 7140, latitude: 72, longitude: 72) <br> Coordinates: <br> * time (time) datetime64[ns] 57kB 2004-01-19 2004-01-20 ... 2024-01-15 <br> * latitude (latitude) float64 576B 57.0 55.5 54.0 52.5 ... -46.5 -48.0 -49.5 <br> * longitude (longitude) float64 576B 52.5 54.0 55.5 ... 156.0 157.5 159.0 <br> Data variables: <br> t2m (time, latitude, longitude) float32 148MB|  
 
-**The ECMWF-hindcast NetCDF data2** was generated based on **data 1**, 90th-percentile climatological thresholds nc file (e.g., `t2m_clim90th`) were computed for each ECMWF Hindcast version using the forecast issued dates.  
-
+**The ECMWF-hindcast NetCDF data2** was generated based on **data 1**, 90th-percentile climatological thresholds nc file were computed for each ECMWF Hindcast version using the forecast issued dates.  
+| data2 information (***e.g., nc file: v2024_ECMWF_hindcast_T2M_w3_clim90th.nc***) |
+| :---|
+|Dimensions: (latitude: 72, longitude: 72, doy: 356) <br> Coordinates: <br> * latitude (latitude) float64 576B 57.0 55.5 54.0 52.5 ... -46.5 -48.0 -49.5 <br> * longitude (longitude) float64 576B 52.5 54.0 55.5 ... 156.0 157.5 159.0 <br> quantile      float64 8B ... <br> doy (doy) int64 3kB 1 3 4 5 6 7 8 ... 360 361 362 363 364 365 366 <br> Data variables: <br> t2m_clim90th (doy, latitude, longitude) float64 15MB|  
