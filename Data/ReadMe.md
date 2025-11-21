@@ -1,4 +1,4 @@
-### 📊 Data Download 
+### 💾 Data Download 
 This directory should include historical data on East Asia Climate Extremes isolated from ERA5 and ECMWF.
 
 To download the compressed dataset, use the following command:
