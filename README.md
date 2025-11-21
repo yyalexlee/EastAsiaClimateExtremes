@@ -4,10 +4,7 @@ Initiative for Developing an East Asia Climate Extremes Dataset!
 
 This repository provides historical data on climate extremes across the East Asia(EA) region, basically archiving **the events of regular grid-based climate extremes**, and **weekly/monthly extremeness metrics** can be utilized as labels for AI-based(or -assisted) models to predict anomalous climate events in East Asia. These efforts are part of the climate extreme prediction project led by the ART/APCC team (AI-based prediction Research and Technology at the APEC Climate Center). Currently, the repository focuses on extreme phenomena such as ***anomalously high temperatures(AHT)***, ***heavy rainfall(HR)***, and ***marine heatwaves(MHW)***, with the potential for further expansion. Additionally, it offers codes for analyzing and visualizing key statistics and characteristics of atmospheric and oceanic extremes. We hope this serves as a meaningful and practical starting point for researchers diving into studies on the dynamics and prediction of extreme phenomena. 
 
-<img width="4400" height="847" alt="extremes" src="https://github.com/user-attachments/assets/192b100a-c327-41ab-90dc-f2adc006a53a" />
-
-*add figures or text here about how to define extremes?*
-
+<img width="6503" height="1915" alt="trend" src="https://github.com/user-attachments/assets/954688b8-c6b3-48d8-b852-cea6c82c7955" />
 
 
 ## Data Download
@@ -15,6 +12,8 @@ This repository provides historical data on climate extremes across the East Asi
   ```
   wget --content-disposition "https://www.dropbox.com/scl/fi/pqm64be2s46y8zpq0zn1e/EA1.5_P9095.zip?rlkey=rh8vnut3gzecn4472xycdr0da&st=63cbrbsl&dl=0"
   ```
+  
+## Data Description
 
 ***Spatial/Temporal Coverage***  
 
@@ -22,12 +21,6 @@ This repository provides historical data on climate extremes across the East Asi
 |---------|----------|----------|
 |**Space**|21-48N, 114-141E|1.5deg|
 |**Time** |1940-2024(ERA5), 1982-2024(OISST)|Daily / Weekly|
-  
-***Data format***   
-
-
-
-## Contents (-> Data? or Data Description)
 
 ***1. Climate Data*** 
 
@@ -53,7 +46,6 @@ This repository provides historical data on climate extremes across the East Asi
 
 ***3. Period(Weekly/Monthly) Extremeness Metrics***  
 
-
 |Metric         |Description|
 |---------------|-----------|
 |Extreme Days      |Number of days in the period when *T2M_e/TP_e/SST_e* exceed zero|
@@ -63,10 +55,7 @@ This repository provides historical data on climate extremes across the East Asi
 >*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
 
 
-
 ## Usage  
-
-*add examples of running python codes?*
 
 ### Codes for Data Processing and Visualization
 | Code File | Description | Location |
@@ -85,13 +74,6 @@ This repository provides historical data on climate extremes across the East Asi
 
 **Long-term Statistics of Climate Extremes**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Annual Mean Event Frequency/Duration/Mean Intensity  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Event Frequency/Duration/Mean Intensity Change per Decade
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For **1982-2024** (ERA5 for AHT/HR, OISST for MHW),*  
-<img width="2029" height="1239" alt="ext90 oisst 1982-2024 EA1 5 h_all" src="https://github.com/user-attachments/assets/ee67788e-2f4b-4991-9ccb-26ba517f658f" />
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*For **1940-2024** (all ERA5 based),*  
-<img width="2029" height="1239" alt="ext90 era5 1940-2024 EA1 5 h_all" src="https://github.com/user-attachments/assets/29d0da57-7a4f-4b91-8430-ce76c9886749" />  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heavy Rainfall with 90th percentile threshold
 
@@ -111,7 +93,8 @@ This repository provides historical data on climate extremes across the East Asi
 - Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
 - Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line  
 
- 
+
+
 
 ## Reference
   Westby, Rebecca Marie et al. “Anomalous Temperature Regimes during the Cool Season: Long-Term Trends, Low-Frequency Mode Modulation, and Representation in CMIP5 Simulations.” Journal of Climate 26 (2013): 9061-9076  
