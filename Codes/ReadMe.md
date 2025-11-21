@@ -18,7 +18,8 @@
 ***2. Seasonality and Trend of Climate Extremes***  
 - Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
 - Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line
-  
+
+&nbsp;    
 ***3. Example images after runing codes***  
 **Long-term Statistics of Climate Extremes**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3.1. timeseries exmaple** ***(from `0.display_timeseries_dy.py`)***  
