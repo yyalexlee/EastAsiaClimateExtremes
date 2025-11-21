@@ -1,9 +1,4 @@
-### 🧮 Example Codes (or -> Usage) 
-(미애 박사님의 코드 설명이 여기로 오면 좋겠다는 제안)
-### Usage  
-*add examples of running python codes?*  
-&nbsp;&nbsp;&nbsp;&nbsp;if codes given: how to read the data and to isolate/plot timeseries of specific grid point?  (위/이/아래 문장들은 필요없는 듯)  
-&nbsp;&nbsp;&nbsp;&nbsp;how about adding a table describing example codes given?  
+### 🧮 Usage 
 
 ### Codes for Data Processing and Visualization
 | Code File | Description | Location |
@@ -13,8 +8,23 @@
   
 &nbsp;  
   
-### 📊 Output Examples (or Output Details?)
-(그냥: 메인 페이지에 있는 output 결과 이미지들 샘플이 여기로? 오면 좋겠다는 의견 제안)  
-**Example Code 1:**  
+### 📊 Output Details 
+
+**Long-term Statistics of Climate Extremes**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2D Maps of Annual Mean Event Frequency/Duration/Mean Intensity  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heavy Rainfall with 90th percentile threshold  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Heatmap of monthly count of heavy rainfall events (D1G3) with trend (+/-)*  
+
+<img width="2300" height="800" alt="hr90_D1G3sum_heatmap" src="https://github.com/user-attachments/assets/bbe22dff-5327-4627-b3a3-fb8d94ffbffa" />  
+
+  
+***1. Historical Event Statistics***  
+- List of Events: *AHT, HR, MHW*  
+- Event Statistics: Frequeny, Duration, Mean Intensity  
+- Daily/Weekly Timeseries and Extremeness  
+
+***2. Seasonality and Trend of Climate Extremes***  
+- Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
+- Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line  
 
 
