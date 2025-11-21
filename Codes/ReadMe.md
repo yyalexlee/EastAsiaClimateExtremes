@@ -1,6 +1,4 @@
-### 🧮 Usage 
-
-### Codes for Data Processing and Visualization
+### 🧮 Codes for Data Processing and Visualization
 | Code File | Description | Location |
 | ------ | ----- | ----- |
 | `0.display_timeseries_dy.py`| Code for timeseries visualization for MHW | EastAsiaClimateExtremes/Codes/ |
