@@ -33,25 +33,18 @@ This repository provides historical data on climate extremes across the East Asi
 |Ref. Period       |1991-2020(ERA5/OISST, WMO recommendation), 2004-2023(ECMWF-hindcast)|
 
 
-***2. Extreme Event Profile***
+***2. Event Profile & Extremeness Metrics***
 
-|        |Description|
+|Event Profile  |Description|  Extremeness Metrics|Description|
 |--------|-----------|
-|Meta              |***Start/End Date, Duration, Mean/Peak Intensity*** and so forth|            
-|Extreme Thresholds|p90, p95|            
-|Event Criteria    |D3G5, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
+|Extreme Thresholds(thr)|p90, p95||Extreme Days      |Number of days in the period(Weekly/Monthly) when *T2M_e/TP_e/SST_e* exceed zero|            
+|Event Criteria    |D3G5, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|Max. Intensity    |Peak *T2M_e/TP_e/SST_e* observed during the period(Weekly/Monthly)|
+|Meta              |***Start/End Date, Duration, Mean/Peak Intensity*** and so forth|Impact Factor     |Cumulative *T2M_e/TP_e/SST_e* over the period(Weekly/Monthly)|            
 
+|Metric1: Extreme Days      |Number of days in the period(Weekly/Monthly) when *T2M_e/TP_e/SST_e* exceed zero|
+|Metric2: Max. Intensity    |Peak *T2M_e/TP_e/SST_e* observed during the period(Weekly/Monthly)|
+|Metric3: Impact Factor     |Cumulative *T2M_e/TP_e/SST_e* over the period(Weekly/Monthly)|
 >*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
-
-
-***3. Period(Weekly/Monthly) Extremeness Metrics***  
-
-|Metric         |Description|
-|---------------|-----------|
-|Extreme Days      |Number of days in the period when *T2M_e/TP_e/SST_e* exceed zero|
-|Max. Intensity    |Peak *T2M_e/TP_e/SST_e* observed during the period|
-|Impact Factor     |Cumulative *T2M_e/TP_e/SST_e* over the period|
-
 >*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
 
 
