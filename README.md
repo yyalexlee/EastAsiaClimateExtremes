@@ -15,14 +15,15 @@ This repository provides historical data on climate extremes across the East Asi
   
 ## Data Description
 
-***Spatial/Temporal Coverage***  
+### *0. Spatial/Temporal Coverage*  
 
 |         |Domain    |Resolution|
 |---------|----------|----------|
 |**Space**|21-48N, 114-141E|1.5deg|
 |**Time** |1940-2024(ERA5), 1982-2024(OISST)|Daily / Weekly|
 
-***1. Climate Data*** 
+
+### *1. Climate Data*
 
 |        |Description|
 |--------|-----------|
@@ -33,7 +34,7 @@ This repository provides historical data on climate extremes across the East Asi
 |Ref. Period       |1991-2020(ERA5/OISST, WMO recommendation), 2004-2023(ECMWF-hindcast)|
 
 
-***2. Event Profile & Extremeness Metrics***
+### *2. Event Profile & Extremeness Metrics*
 - List of Events: *AHT, HR, MHW*
   
 |Event Profile  |Description|Extremeness Metrics (Weekly/Monthly)|Description|
@@ -47,7 +48,7 @@ This repository provides historical data on climate extremes across the East Asi
 
 ## Usage  
 
-**Codes for Data Processing and Visualization**
+### Codes for Data Processing and Visualization
 | Code File | Description | Location |
 | --- | --- | --- |
 | `TART_visualization1.ipynb` | Code for timeseries and heatmap visualization | EastAsiaClimateExtremes/Codes/
