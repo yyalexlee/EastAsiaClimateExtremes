@@ -35,7 +35,6 @@ wget --content-disposition "https://www.dropbox.com/scl/fi/pqm64be2s46y8zpq0zn1e
 >*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
 >*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
 
-&nbsp;  
 ***3. Data Format*** 
 
 |        |Description|
@@ -43,8 +42,7 @@ wget --content-disposition "https://www.dropbox.com/scl/fi/pqm64be2s46y8zpq0zn1e
 |Pickle|Easy to use by **importing pickle** (e.g. import pickle)|
 |NetCDF|If you have **Python version 3.8 or higher**, you can easily read **nc files** with **xarray**|  
 
-&nbsp;  
-**4.0. ECMWF-hindcast datasets**    
+**3.0. ECMWF-hindcast datasets**    
 **The ECMWF-hindcast NetCDF data1** was reconstructed from ECMWF Hindcast versions **2016** and **2024**.
 For each forecast initialization date, data corresponding to **lead week 3 (days 15–21 after initialization)** were extracted and reorganized into daily records.  
   
