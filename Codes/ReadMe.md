@@ -36,6 +36,12 @@
 <img width="800" height="550" alt="hr90_D1G3sum_heatmap" src="https://github.com/user-attachments/assets/bbe22dff-5327-4627-b3a3-fb8d94ffbffa" />  
 
   
+Potentially addable?
+*1. Seasonality and Trend of Climate Extremes*  
+- Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
+- Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line  
+
+
 
 
 
