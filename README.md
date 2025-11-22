@@ -34,7 +34,8 @@ This repository provides historical data on climate extremes across the East Asi
 
 
 ***2. Event Profile & Extremeness Metrics***
-- List of Events: *AHT, HR, MHW*  
+- List of Events: *AHT, HR, MHW*
+  
 |Event Profile  |Description|Extremeness Metrics (Weekly/Monthly)|Description|
 |-------|-----------|--------|-----------|
 |**Extreme Thresholds**|p90, p95|**Extreme Days**      |Number of days in the period when *T2M_e/TP_e/SST_e* exceed zero|            
@@ -59,6 +60,11 @@ This repository provides historical data on climate extremes across the East Asi
 |Daily extreme events, Yearly event counts|Timeseries| NetCDF|
 |Frequency, Mean Intensity, Max Intensity|2D maps   | NetCDF|
 |Monthly Event Counts+Trend(+/-)|Heatmaps  | NetCDF|
+
+Potentially addable?
+*1. Seasonality and Trend of Climate Extremes*  
+- Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
+- Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line  
 
 
 ## Reference
