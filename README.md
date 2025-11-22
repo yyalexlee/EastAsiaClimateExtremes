@@ -35,9 +35,9 @@ This repository provides historical data on climate extremes across the East Asi
 
 ***2. Event Profile & Extremeness Metrics***
 
-|Event Profile  |Description|  Extremeness Metrics|Description|
-|--------|-----------|
-|Extreme Thresholds(thr)|p90, p95||Extreme Days      |Number of days in the period(Weekly/Monthly) when *T2M_e/TP_e/SST_e* exceed zero|            
+|Event Profile  |Description|Extremeness Metrics|Description|
+|--------|-----------|--------|-----------|
+|Extreme Thresholds(thr)|p90, p95|Extreme Days      |Number of days in the period(Weekly/Monthly) when *T2M_e/TP_e/SST_e* exceed zero|            
 |Event Criteria    |D3G5, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|Max. Intensity    |Peak *T2M_e/TP_e/SST_e* observed during the period(Weekly/Monthly)|
 |Meta              |***Start/End Date, Duration, Mean/Peak Intensity*** and so forth|Impact Factor     |Cumulative *T2M_e/TP_e/SST_e* over the period(Weekly/Monthly)|            
 
