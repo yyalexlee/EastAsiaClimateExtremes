@@ -34,12 +34,12 @@ This repository provides historical data on climate extremes across the East Asi
 
 
 ***2. Event Profile & Extremeness Metrics***
-
+- List of Events: *AHT, HR, MHW*  
 |Event Profile  |Description|Extremeness Metrics (Weekly/Monthly)|Description|
 |-------|-----------|--------|-----------|
 |**Extreme Thresholds**|p90, p95|**Extreme Days**      |Number of days in the period when *T2M_e/TP_e/SST_e* exceed zero|            
 |**Event Criteria**    |D3G5, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|**Max. Intensity**    |Peak *T2M_e/TP_e/SST_e* observed during the period|
-|**Event Meta**        |***Start/End Date, Duration, Mean/Peak Intensity*** and so forth|**Impact Factor**     |Cumulative *T2M_e/TP_e/SST_e* over the period|            
+|**Event Meta**        |*Start/End Date, Frequency, Duration, Mean/Peak Intensity* and so forth|**Impact Factor**     |Cumulative *T2M_e/TP_e/SST_e* over the period|            
 >*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
 >*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
 
@@ -59,20 +59,6 @@ This repository provides historical data on climate extremes across the East Asi
 |Daily extreme events, Yearly event counts|Timeseries| NetCDF|
 |Frequency, Mean Intensity, Max Intensity|2D maps   | NetCDF|
 |Monthly Event Counts+Trend(+/-)|Heatmaps  | NetCDF|
-
-Delete below?
-*for individual grid points within EA domain,*  
-  
-***1. Historical Event Statistics***  
-- List of Events: *AHT, HR, MHW*  
-- Event Statistics: Frequeny, Duration, Mean Intensity  
-- Daily/Weekly Timeseries and Extremeness  
-
-***2. Seasonality and Trend of Climate Extremes***  
-- Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
-- Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line  
-
-
 
 
 ## Reference
