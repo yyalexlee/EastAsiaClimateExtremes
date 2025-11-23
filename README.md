@@ -76,11 +76,7 @@ Potentially addable?
 
 
 ## Citation
-
-
-
-## Contact
-
-
+  Lee, Y., M. Kim, U. Jung (2025). EastAsiaClimateExtremes. GitHub. https://github.com/yyalexlee/EastAsiaClimateExtremes
 
 ## Acknowledgments
+  This research is supported by APEC Climate Center. 
