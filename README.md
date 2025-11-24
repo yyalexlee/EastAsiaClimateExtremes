@@ -51,8 +51,8 @@ This repository provides historical data on climate extremes across the East Asi
 ### Codes for Data Processing and Visualization
 | Code File | Description | Location |
 | --- | --- | --- |
-| `TART_visualization1.ipynb` | Code for timeseries and heatmap visualization | EastAsiaClimateExtremes/Codes/
-| `TART_visualization2.ipynb` | Code for 2-D map visualization for climatological extreme event statistics | EastAsiaClimateExtremes/Codes/
+| `TART_visualization1.ipynb` | Code for timeseries and heatmap visualization | EastAsiaClimateExtremes/CODES/
+| `TART_visualization2.ipynb` | Code for 2-D map visualization for climatological extreme event statistics | EastAsiaClimateExtremes/CODES/
 
 
 ## Ouput Details
