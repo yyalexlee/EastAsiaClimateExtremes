@@ -62,7 +62,8 @@ This repository provides historical data on climate extremes across the East Asi
 |Frequency, Mean Intensity, Max Intensity|2D maps   | NetCDF|
 |Monthly Event Counts+Trend(+/-)|Heatmaps  | NetCDF|
 
-Potentially addable?
+Potentially addible contents
+
 *1. Seasonality and Trend of Climate Extremes*  
 - Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
 - Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line  
