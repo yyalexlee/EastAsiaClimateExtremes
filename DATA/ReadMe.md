@@ -1,18 +1,18 @@
 ### 💾 Data Download 
-This directory should include historical data on East Asia Climate Extremes isolated from ERA5 and ECMWF.
-
+This directory should include historical data on East Asia Climate Extremes isolated from ERA5 and ECMWF. <br>
 To download the compressed dataset, use the following command:
 ```
 wget --content-disposition "https://www.dropbox.com/scl/fo/d3x654sonyblxni7ha3gm/ABzxk80RwyxIx6Hi_4A400g?rlkey=arvb3pmacdtrvkav367ld92kx&st=ryf7m45o&dl=0"  
 ```
+  
+- If you access the above address (***Dropbox***), you can download data separately from the following folders.
 
-If you access the above address (***Dropbox***), you can download data separately from the following folders.
 |Folder Name in Dropbox |Description | File Format|
 |------------|------------|------------|
 |0.HistoricalExtremeEvent_dailybased| |pickel|
 |1.Weekly_ERA5|   |NetCDF|
 |2.Daily_ECMWFhindcasts|   |NetCDF|  
-
+  
 &nbsp;  
 ### 📝 Data Description
 ***0. Spatial/Temporal Coverage***  
