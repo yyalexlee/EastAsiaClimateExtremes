@@ -43,7 +43,7 @@ This repository provides historical data on climate extremes across the East Asi
 |**Event Criteria**    |D3G5*, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|**Max. Intensity**    |Maximum *T2M_e/TP_e/SST_e* observed|
 |**Event Meta**        |*Start/End Date, Frequency, Duration, Mean/Peak Intensity*|**Impact Factor**     |Cumulative *T2M_e/TP_e/SST_e* over the period|            
 >*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
->*e.g., D3G5* represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
+>**e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
 
 
 ## Usage  
