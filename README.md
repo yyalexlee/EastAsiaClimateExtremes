@@ -25,7 +25,7 @@ This repository provides historical data on climate extremes across the East Asi
 
 ### *1. Climate Data*
 
-|        |Description|
+|Item    |Description|
 |--------|-----------|
 |Frequency         |Daily/Weekly|
 |Variables         |Mean Near Surface Temperature(T2M), Sea Surface Temperature(SST), Total Precipitation(TP)|
