@@ -28,7 +28,7 @@
 &nbsp;  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3.2. 2D Maps of Annual Mean Event Frequency/Duration/Mean Intensity**  
 
-![2dmaps](IMAGES/TP_extreme_maps_1991_2020_p90.png)
+![2dmaps](../IMAGES/TP_extreme_maps_1991_2020_p90.png)
 
 &nbsp;  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3.3. Heavy Rainfall with 90th percentile threshold** ***(from `TART_visualization1_output.ipynb`)***  
