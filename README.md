@@ -37,13 +37,13 @@ This repository provides historical data on climate extremes across the East Asi
 ### *2. Event Profile & Extremeness Metrics*
 - List of Events: *AHT, HR, MHW*
   
-|Event Profile  |Description|Extremeness Metrics (Weekly/Monthly)|Description|
+|Event Profile  |Event Description|Extremeness Metrics (Weekly/Monthly)|Metric Description|
 |-------|-----------|--------|-----------|
-|**Extreme Thresholds**|p90, p95|**Extreme Days**      |Number of days in the period when *T2M_e/TP_e/SST_e* exceed zero|            
-|**Event Criteria**    |D3G5, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|**Max. Intensity**    |Peak *T2M_e/TP_e/SST_e* observed during the period|
-|**Event Meta**        |*Start/End Date, Frequency, Duration, Mean/Peak Intensity* and so forth|**Impact Factor**     |Cumulative *T2M_e/TP_e/SST_e* over the period|            
+|**Extreme Thresholds**|p90, p95|**Extreme Days**      |Number of days when *T2M_e/TP_e/SST_e* > 0|            
+|**Event Criteria**    |D3G5*, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|**Max. Intensity**    |Maximum *T2M_e/TP_e/SST_e* observed|
+|**Event Meta**        |*Start/End Date, Frequency, Duration, Mean/Peak Intensity*|**Impact Factor**     |Cumulative *T2M_e/TP_e/SST_e* over the period|            
 >*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
->*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
+>*e.g., D3G5* represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
 
 
 ## Usage  
