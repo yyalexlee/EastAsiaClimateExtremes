@@ -9,6 +9,12 @@ If you access the above address (***Dropbox***), you can download data separatel
 - 0.HistoricalExtremeEvent_dailybased
 - 1.Weekly_ERA5
 - 2.Daily_ECMWFhindcasts
+
+```bash
+├── 0.HistoricalExtremeEvent_dailybased
+├── 1.Weekly_ERA5
+└── 2.Daily_ECMWFhindcasts
+``` 
   
 &nbsp;  
 ### 📝 Data Description
