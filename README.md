@@ -37,7 +37,7 @@ This repository provides historical data on climate extremes across the East Asi
 
 ### *2. Event Profile & Extremeness Metrics*
 - List of Events: *AHT, HR, MHW*
-- Location: EastAsiaClimateExtremes/DATA/0.Extremes_Events_WeeklyMonthly/
+- Location: EastAsiaClimateExtremes/DATA/0.ExtremeEvents_WeeklyMonthly/
   
 |Event Profile  |Event Description|Extremeness Metrics (Weekly/Monthly)|Metric Description|
 |-------|-----------|--------|-----------|
