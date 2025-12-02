@@ -1,9 +1,9 @@
 ### 🧮 Codes for Data Processing and Visualization
 | Code File | Description | Location |
 | ------ | ----- | ----- |
-| `0.display_timeseries_dy.py`| Code for timeseries visualization for MHW | EastAsiaClimateExtremes/CODES/ |
 | `TART_visualization1_output.ipynb` | Code for timeseries and heatmap visualization | EastAsiaClimateExtremes/CODES/|
-| `TART_visualization2_output.ipynb` | Code for 2-D map visualization for climatological extreme event statistics | EastAsiaClimateExtremes/CODES/|
+| `TART_visualization2_output.ipynb` | Code for 2-D map visualization of long-term statistics of weekly climate extremes | EastAsiaClimateExtremes/CODES/|
+| `0.display_timeseries_dy.py`| Code for timeseries visualization of MHW | EastAsiaClimateExtremes/CODES/ |
   
 &nbsp;  
   
