@@ -20,10 +20,9 @@
 
 &nbsp;    
 ***2. Example images after runing codes***  
-**Long-term Statistics of Climate Extremes**  
   
 &nbsp;  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.0. 2D Maps of Annual Statistics of Weekly Extreme Frequency/Mean/Max. Intensity**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.0. 2D Maps of Long-term Statistics of Weekly Extreme Frequency/Mean/Max. Intensity**  
 
 ![2dmaps](../IMAGES/TP_extreme_maps_1991_2020_p90.png)
 
@@ -33,7 +32,7 @@
 
 <img width="800" height="550" alt="hr90_D1G3sum_heatmap" src="https://github.com/user-attachments/assets/bbe22dff-5327-4627-b3a3-fb8d94ffbffa" />  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.0. timeseries exmaple** ***(from `0.display_timeseries_dy.py`)***  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.3. timeseries exmaple** ***(from `0.display_timeseries_dy.py`)***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Marin Heatwave events on three points of Korean Peninsula*  
 
 <img width="400" height="600" alt="timeseries_3pnts" src="https://github.com/user-attachments/assets/f57fa000-ad59-4e61-9ebb-dcc7886d13dc" />
