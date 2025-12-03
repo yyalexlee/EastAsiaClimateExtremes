@@ -1,21 +1,31 @@
 ### 💾 Data Download 
 This directory should include historical data on East Asia Climate Extremes isolated from ERA5 and ECMWF. <br>
 To download the compressed dataset, use the following command:
-```
-wget --content-disposition "https://www.dropbox.com/scl/fo/d3x654sonyblxni7ha3gm/ABzxk80RwyxIx6Hi_4A400g?rlkey=arvb3pmacdtrvkav367ld92kx&st=ryf7m45o&dl=0"  
-```
-  
-If you access the above address (***Dropbox***), you can download data separately from the following sub-folders:
-- 0.HistoricalExtremeEvent_dailybased
-- 1.Weekly_ERA5
-- 2.Daily_ECMWFhindcasts
-
+If you access the dataset (***Dropbox***), you can download data separately from the following sub-folders:
 ```bash
 DataFilesforEastAsiaClimateExtremes.zip
-├── 0.HistoricalExtremeEvent_dailybased
-├── 1.Weekly_ERA5
-└── 2.Daily_ECMWFhindcasts
-``` 
+├── 0.ExtremeEvents_WeeklyMonthly
+├── 1.Daily_ERA5
+├── 2.Weekly_ERA5
+└── 3.Daily_ECMWFhindcasts
+```
+
+**0.ExtremeEvents_WeeklyMonthly**
+```
+wget --content-disposition "https://www.dropbox.com/scl/fo/5hcy3r8jxd6o9qaa267bf/AMI0pTgTvZWf1MXq7SgAZwk?rlkey=z3x1kyrynjeg0wctprfk31aj1&st=ryo0cv1h&dl=0"  
+```
+**1.Daily_ERA5**
+```
+wget --content-disposition "https://www.dropbox.com/scl/fo/t8082lha97fi5ebqsq77x/ACZu-o6b-b4e05S81-7BkQs?rlkey=d5v7ztkp71nb4d7jx19pgv97u&st=9h8y9v6x&dl=0"  
+```
+**2.Weekly_ERA5**
+```
+wget --content-disposition "https://www.dropbox.com/scl/fo/w12fdxsv89tfhphrrot1l/AD7IuKrO3LrVvkCN1hEA2c0?rlkey=67vr21cu88jt9q625lzboocao&st=brvin2np&dl=0"  
+```
+**3.Daily_ECMWFhindcasts**
+```
+wget --content-disposition "https://www.dropbox.com/scl/fo/sv3lu1e3qzwwtt6dqnzkq/AEI6Vn0BLPvGmnynbGZ6_Gk?rlkey=8bdbyjjjg472mimxx1lpk9v3b&st=npjwog3p&dl=0"  
+```
   
 &nbsp;  
 ### 📝 Data Description
