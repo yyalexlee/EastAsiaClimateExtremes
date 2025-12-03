@@ -4,8 +4,8 @@ This directory should include historical data on East Asia Climate Extremes isol
 If you access the dataset below (***Dropbox***), you can download data separately from the following sub-folders:
 ```bash
 DataFilesforEastAsiaClimateExtremes.zip
-├── 0.ExtremeEvents_WeeklyMonthly
-├── 1.Daily_ERA5
+├── 0.ExtremeEvents_ERA5_OISST
+├── 1.Daily_ERA5_OISST
 ├── 2.Weekly_ERA5
 └── 3.Daily_ECMWFhindcasts
 ```
