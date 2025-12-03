@@ -41,7 +41,7 @@ This repository provides historical data on climate extremes across the East Asi
 |        |Description|
 |--------|-----------|
 |Frequency         |Daily/Weekly|
-|Variables         |2-m Air Temperature(T2M), Sea Surface Temperature(SST), Total Precipitation(TP)|
+|Variables         |2m Air Temperature(T2M), Sea Surface Temperature(SST), Total Precipitation(TP)|
 |Type              |Original Timeseries, Climatological Long-Term Mean, 90/95th Percentile Thresholds(p90/p95)|
 |Resources         |ERA5, OISST(only for SST) and ECMWF-hindcast|
 |Ref. Period       |1991-2020(ERA5/OISST, WMO recommendation), <br> 2004-2023(for ver.2024 of ECMWF-hindcast), 1996-2015(for ver.2016 of ECMWF-hindcast)|  
