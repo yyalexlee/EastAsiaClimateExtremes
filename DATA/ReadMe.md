@@ -35,9 +35,11 @@ DataFilesforEastAsiaClimateExtremes.zip
 |Type              |Original Timeseries, Climatological Long-Term Mean, 90/95th Percentile Thresholds(p90/p95)|
 |Resources         |ERA5, OISST(only for SST) and ECMWF-hindcast|
 |Ref. Period       |1991-2020(ERA5/OISST, WMO recommendation), <br> 2004-2023(for ver.2024 of ECMWF-hindcast), 1996-2015(for ver.2016 of ECMWF-hindcast)|  
+|Location          |EastAsiaClimateExtremes/DATA/1.Daily_ERA5/, 2.Weekly_ERA5/, 3.Daily_ECMWFhindcasts/|
 
 ***2. Event Profile & Extremeness Metrics***
 - List of Events: *AHT, HR, MHW*
+- Location: EastAsiaClimateExtremes/DATA/0.ExtremeEvents_WeeklyMonthly/
   
 |Event Profile  |Description|Extremeness Metrics (Weekly/Monthly)|Description|
 |-------|-----------|--------|-----------|
