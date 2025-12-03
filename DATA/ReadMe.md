@@ -19,12 +19,14 @@ DataFilesforEastAsiaClimateExtremes.zip
   
 &nbsp;  
 ### 📝 Data Description
+
 ***0. Spatial/Temporal Coverage***  
 
 |         |Domain    |Resolution|
 |---------|----------|----------|
 |**Space**|21-48N, 114-141E|1.5deg|
 |**Time** |1940-2024(ERA5), 1982-2024(OISST), ECMWF-hindcast version 2016 & 2024|Daily / Weekly|  
+
   
 ***1. Climate Data***  
 
@@ -36,6 +38,7 @@ DataFilesforEastAsiaClimateExtremes.zip
 |Resources         |ERA5, OISST(only for SST) and ECMWF-hindcast|
 |Ref. Period       |1991-2020(ERA5/OISST, WMO recommendation), <br> 2004-2023(for ver.2024 of ECMWF-hindcast), 1996-2015(for ver.2016 of ECMWF-hindcast)|  
 |Location          |EastAsiaClimateExtremes/DATA/1.Daily_ERA5/, 2.Weekly_ERA5/, 3.Daily_ECMWFhindcasts/|
+
 
 ***2. Event Profile & Extremeness Metrics***
 - List of Events: *AHT, HR, MHW*
@@ -49,6 +52,7 @@ DataFilesforEastAsiaClimateExtremes.zip
 >*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
 >*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
 
+
 ***3. Data Format*** 
 
 |        |Description|
@@ -56,7 +60,7 @@ DataFilesforEastAsiaClimateExtremes.zip
 |Pickle|Easy to use by **importing pickle** (e.g. import pickle)|
 |NetCDF|If you have **Python version 3.8 or higher**, you can easily read **nc files** with **xarray**|  
 
-**3.0. ECMWF-hindcast datasets**    
+  **3.0. ECMWF-hindcast datasets**    
 **The ECMWF-hindcast NetCDF data1** was reconstructed from ECMWF Hindcast versions **2016** and **2024**.
 For each forecast initialization date, data corresponding to **lead week 3 (days 15–21 after initialization)** were extracted and reorganized into daily records.  
   
