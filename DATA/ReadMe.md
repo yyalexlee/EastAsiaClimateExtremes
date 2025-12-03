@@ -1,7 +1,7 @@
 ### 💾 Data Download 
 This directory should include historical data on East Asia Climate Extremes isolated from ERA5 and ECMWF. <br>
-To download the compressed dataset, use the following command:
-If you access the dataset (***Dropbox***), you can download data separately from the following sub-folders:
+
+If you access the dataset below (***Dropbox***), you can download data separately from the following sub-folders:
 ```bash
 DataFilesforEastAsiaClimateExtremes.zip
 ├── 0.ExtremeEvents_WeeklyMonthly
@@ -10,6 +10,7 @@ DataFilesforEastAsiaClimateExtremes.zip
 └── 3.Daily_ECMWFhindcasts
 ```
 
+To download the compressed dataset, use the following command:
 **0.ExtremeEvents_WeeklyMonthly**
 ```
 wget --content-disposition "https://www.dropbox.com/scl/fo/5hcy3r8jxd6o9qaa267bf/AMI0pTgTvZWf1MXq7SgAZwk?rlkey=z3x1kyrynjeg0wctprfk31aj1&st=ryo0cv1h&dl=0"  
