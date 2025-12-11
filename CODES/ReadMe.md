@@ -3,7 +3,7 @@
 | ------ | ----- | ----- |
 | `TART_visualization1_output.ipynb` | Code for timeseries and heatmap visualization | EastAsiaClimateExtremes/CODES/|
 | `TART_visualization2_output.ipynb` | Code for 2-D map visualization of long-term statistics of weekly climate extremes | EastAsiaClimateExtremes/CODES/|
-| `0.display_timeseries_dy.py`| Code for timeseries visualization of MHW | EastAsiaClimateExtremes/CODES/ |
+| `0.display_EAextremes_event_statistics.py`| Code for calculating and displaying long-term mean and trend of extreme events | EastAsiaClimateExtremes/CODES/ |
   
 &nbsp;  
   
@@ -32,10 +32,11 @@
 
 <img width="800" height="550" alt="hr90_D1G3sum_heatmap" src="https://github.com/user-attachments/assets/bbe22dff-5327-4627-b3a3-fb8d94ffbffa" />  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.3. timeseries exmaple** ***(from `0.display_timeseries_dy.py`)***  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Marin Heatwave events on three points of Korean Peninsula*  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.2. Event statistics: long-term mean and trend of frequency/total days/mean intensity** ***(from `0.display_EAextremes_event_statistics.py`)***  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Marin Heatwave event (D5G2, 90%tile) statistics (1982-2024)*  
 
-<img width="400" height="600" alt="timeseries_3pnts" src="https://github.com/user-attachments/assets/f57fa000-ad59-4e61-9ebb-dcc7886d13dc" />
+<img width="1019" height="869" alt="stats mhw event90_D5G2 1982-2024 EA1 5" src="https://github.com/user-attachments/assets/ed1b7fc3-bf63-4927-be77-b6388c13f758" />
+
   
 
 
