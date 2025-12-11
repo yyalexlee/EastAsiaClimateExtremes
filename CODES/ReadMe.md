@@ -32,7 +32,7 @@
 
 <img width="800" height="550" alt="hr90_D1G3sum_heatmap" src="https://github.com/user-attachments/assets/bbe22dff-5327-4627-b3a3-fb8d94ffbffa" />  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.2. Event statistics: long-term mean and trend of frequency/total days/mean intensity** ***(from `0.display_EAextremes_event_statistics.py`)***  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.2. 2D Maps of Event statistics: long-term mean/trend of frq./duration/mean intensity** ***(from `0.display_EAextremes_event_statistics.py`)***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Marin Heatwave event (D5G2, 90%tile) statistics (1982-2024)*  
 
 <img width="1019" height="869" alt="stats mhw event90_D5G2 1982-2024 EA1 5" src="https://github.com/user-attachments/assets/ed1b7fc3-bf63-4927-be77-b6388c13f758" />
