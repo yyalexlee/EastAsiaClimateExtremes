@@ -31,14 +31,15 @@
 
 
 &nbsp;  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.1. Heatmap of Monthly Extreme Event Statistics: frequency and trend** 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.1. Heatmap of Monthly Extreme Event Statistics: frequency and trend**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from `TART_visualization1_output.ipynb`)***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Monthly count of heavy rainfall events(D1G3, 90%tile) with trend (+/-)*  
 
-<img width="800" alt="hr90_D1G3sum_heatmap" src="https://github.com/user-attachments/assets/bbe22dff-5327-4627-b3a3-fb8d94ffbffa" />  
+<img width="800" alt="hr90_D1G3sum_heatmap" src="https://github.com/user-attachments/assets/bbe22dff-5327-4627-b3a3-fb8d94ffbffa" /> 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.2. 2D Maps of Extreme "Event" Statistics: long-term mean/trend of frq./duration/mean intensity** 
+&nbsp;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.2. 2D Maps of Extreme "Event" Statistics: long-term mean/trend of frq./duration/mean intensity**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from `0.display_EAextremes_event_statistics.py`)***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Marin Heatwave event (D5G2, 90%tile) statistics (1982-2024)*  
 
@@ -51,8 +52,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ * Counts of extreme weeks and their mean/max intensity per year based on weekly accumulated precipitation (1940-2024)*  
 
 <img width="800" alt="2dmaps" src="../IMAGES/TP_extreme_maps_1991_2020_p90.png" />  
-
-![2dmaps](../IMAGES/TP_extreme_maps_1991_2020_p90.png)
 
 
 
