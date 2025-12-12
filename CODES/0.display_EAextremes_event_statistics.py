@@ -12,6 +12,12 @@ from collections import defaultdict
 from scipy.stats import linregress
 from matplotlib.colors import BoundaryNorm
 
+#########################################################################################################################################
+## Creation Date: 12-Dec-2025                                                                                                          ##
+## Please contact Yun-Young Lee (dolkong400@gmail.com), Team ART(AI-based prediction Research and Technology)/APCC(APEC Climate Center)##
+#########################################################################################################################################
+
+
 # ----------------------------------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------------
 # This code performs the following tasks:
