@@ -19,6 +19,7 @@
 - Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line
 
 ***2. Example images after runing codes***   
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.0. Line plot of daily timeseries: climatology, extreme threshold, events**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from `TART_visualization1_output.ipynb`)***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *T2m timeseries & Anomalous High Temerature event (D5G2, 90%tile)*  
