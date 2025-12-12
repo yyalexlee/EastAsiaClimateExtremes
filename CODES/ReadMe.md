@@ -49,7 +49,7 @@
 &nbsp;  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.3. 2D Maps of "Weekly" Extremes Statistics**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from `TART_visualization2_output.ipynb`)***  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ * Counts of extreme weeks and their mean/max intensity per year based on weekly accumulated precipitation (1940-2024)*  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Counts of extreme weeks and their mean/max intensity per year based on weekly accumulated precipitation (1940-2024)*  
 
 <img width="800" alt="2dmaps" src="../IMAGES/TP_extreme_maps_1991_2020_p90.png" />  
 
