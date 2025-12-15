@@ -1,16 +1,12 @@
 import numpy as np
 import pickle
 import matplotlib.pyplot as plt
-from matplotlib.font_manager import FontProperties
 import matplotlib.gridspec as gridspec
-import matplotlib.patches as Rectangle
-from matplotlib.colors import LinearSegmentedColormap, ListedColormap, BoundaryNorm
-import cartopy
 import cartopy.crs as ccrs
-from cartopy.util import add_cyclic_point
+from matplotlib.colors import BoundaryNorm
 from collections import defaultdict
 from scipy.stats import linregress
-from matplotlib.colors import BoundaryNorm
+
 
 #########################################################################################################################################
 ## Creation Date: 12-Dec-2025                                                                                                          ##
@@ -275,7 +271,6 @@ for config in plot_configs:
         config['cmap'], levs, mn, mx, config['title'],
         fs, fw, 'center', cb, config['unit']
     )
-fig.savefig(ofn2,bbox_inches='tight')
 # ----------------------------------------------------------------------------------------------------------------
 
 
