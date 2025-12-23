@@ -67,8 +67,8 @@ This repository provides historical data on climate extremes across the East Asi
 | Code File | Description | Location |
 | ------ | ----- | ----- |
 | [`0.display_EAextremes_event_statistics.py`](./CODES/0.display_EAextremes_event_statistics.py)| Code for calculating and displaying long-term mean and trend of event statistics | EastAsiaClimateExtremes/CODES/ |
-| `TART_visualization1_output.ipynb` | Code for timeseries and heatmap visualization | EastAsiaClimateExtremes/CODES/|
-| `TART_visualization2_output.ipynb` | Code for 2-D map visualization of long-term statistics of weekly climate extremes | EastAsiaClimateExtremes/CODES/|
+| [`TART_visualization1_output.ipynb`](./CODES/TART_visualization1_output.ipynb) | Code for timeseries and heatmap visualization | EastAsiaClimateExtremes/CODES/|
+| [`TART_visualization2_output.ipynb`](./CODES/TART_visualization2_output.ipynb) | Code for 2-D map visualization of long-term statistics of weekly climate extremes | EastAsiaClimateExtremes/CODES/|
 
 ## Ouput Details
 | Outputs  |Visualization | Data Format|
