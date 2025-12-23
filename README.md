@@ -36,7 +36,7 @@ This repository provides historical data on climate extremes across the East Asi
 |**Time** |1940-2024(ERA5), 1982-2024(OISST), ECMWF-hindcast version 2016 & 2024|Daily / Weekly|  
 
   
-***1. Climate Data***  
+***1. Original Climate Data***  
 
 |        |Description|
 |--------|-----------|
