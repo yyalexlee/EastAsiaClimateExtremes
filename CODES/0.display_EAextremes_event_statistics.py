@@ -278,7 +278,7 @@ for config in plot_configs:
 # 6. Save to exterenal figure file
 # ----------------------------------------------------------------------------------------------------------------
 fig.tight_layout(pad=0.0)
-ofn2 = dir_out2+'stats.'+hd+'.'+mtr+'.'+prd_out+'.'+rg+'.png'
+ofn2 = dir_out2+'stats.'+hd.upper()+'.'+mtr+'.'+prd_out+'.'+rg+'.png'
 fig.savefig(ofn2,bbox_inches='tight')
 # ----------------------------------------------------------------------------------------------------------------
 
