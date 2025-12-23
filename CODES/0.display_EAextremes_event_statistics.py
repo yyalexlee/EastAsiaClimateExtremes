@@ -178,7 +178,7 @@ stt[1] /= float(nyr)
 
 # 3. Save long-term event statistics in pickle
 # ----------------------------------------------------------------------------------------------------------------
-ofn = dir_out1+'stats.'+hd+'.'+mtr+'.'+prd_out+'.'+rg+'.npz'
+ofn = dir_out1+'stats.'+hd.upper()+'.'+mtr+'.'+prd_out+'.'+rg+'.npz'
 np.savez(ofn,
          stt=stt, stt_t=stt_t,
          pts=pts,lat=lat,lon=lon)
