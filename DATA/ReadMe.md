@@ -44,7 +44,7 @@ curl -L -O -J "URL"
 |**Space**|21-48N, 114-141E|1.5deg|
 |**Time** |1940-2024(ERA5), 1982-2024(OISST), ECMWF-hindcast version 2016 & 2024|Daily / Weekly|  
 
-&nbsp;  
+
 ***1. Original Climate Data***  
 
 |        |Description|
@@ -54,9 +54,9 @@ curl -L -O -J "URL"
 |Type              |Original Timeseries, Climatological Long-Term Mean, 90/95th Percentile Thresholds(p90/p95)|
 |Resources         |ERA5, OISST(only for SST) and ECMWF-hindcast|
 |Ref. Period       |1991-2020(ERA5/OISST, WMO recommendation), <br> 2004-2023(for ver.2024 of ECMWF-hindcast), 1996-2015(for ver.2016 of ECMWF-hindcast)|  
-|Location          |EastAsiaClimateExtremes/DATA/1.Daily_ERA5/, 2.Weekly_ERA5/, 3.Daily_ECMWFhindcasts/|
+|Location          |EastAsiaClimateExtremes/DATA/1.Daily_ERA5/, 2.Weekly_ERA5/, 3.Daily_ECMWFhindcasts/|  
 
-&nbsp;
+
 ***2. Event Profile & Extremeness Metrics***
 - List of Events: *AHT, HR, MHW*
 - Location: EastAsiaClimateExtremes/DATA/0.ExtremeEvents_WeeklyMonthly/
@@ -76,7 +76,7 @@ curl -L -O -J "URL"
 |**Impact Factor**     |Cumulative *T2M_e/TP_e/SST_e* over the period|
 
 
-&nbsp;
+
 ***3. File Format*** 
 
 |        |Files in|Description|
@@ -84,8 +84,8 @@ curl -L -O -J "URL"
 |Pickle|0.ExtremeEvents_ERA5_OISST/1.Daily_ERA5_OISST|Easy to use by **importing pickle** (e.g. import pickle)|
 |NetCDF|2.Weekly_ERA5/3.Daily_ECMWFhindcasts|If you have **Python version 3.8 or higher**, you can easily read **nc files** with **xarray**|  
 
-&nbsp;
-***4. Data Details*** 
+
+***4. Data Details***  
 
   **4.0. ECMWF-hindcast datasets**    
 **The ECMWF-hindcast NetCDF data1** was reconstructed from ECMWF Hindcast versions **2016** and **2024**.
