@@ -37,7 +37,7 @@ curl -L -O -J "URL"
 &nbsp;  
 ## 📝 Data Description
 
-###***0. Spatial/Temporal Coverage***  
+###0. Spatial/Temporal Coverage  
 
 |         |Domain    |Resolution|
 |---------|----------|----------|
@@ -45,7 +45,7 @@ curl -L -O -J "URL"
 |**Time** |1940-2024(ERA5), 1982-2024(OISST), ECMWF-hindcast version 2016 & 2024|Daily / Weekly|  
 
 
-###***1. Original Climate Data***  
+###1. Original Climate Data  
 
 |        |Description|
 |--------|-----------|
@@ -57,7 +57,7 @@ curl -L -O -J "URL"
 |Location          |EastAsiaClimateExtremes/DATA/1.Daily_ERA5/, 2.Weekly_ERA5/, 3.Daily_ECMWFhindcasts/|  
 
 
-###***2. Event Profile & Extremeness Metrics***
+###2. Event Profile & Extremeness Metrics
 - List of Events: *AHT, HR, MHW*
 - Location: EastAsiaClimateExtremes/DATA/0.ExtremeEvents_WeeklyMonthly/
   
@@ -77,7 +77,7 @@ curl -L -O -J "URL"
 
 
 
-###***3. File Format & Details*** 
+###3. File Format & Details 
 
 |        |Files in|Description|
 |--------|------------|----------------|
