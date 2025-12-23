@@ -45,7 +45,7 @@ curl -L -O -J "URL"
 |**Time** |1940-2024(ERA5), 1982-2024(OISST), ECMWF-hindcast version 2016 & 2024|Daily / Weekly|  
 
   
-***1. Climate Data***  
+***1. Original Climate Data***  
 
 |        |Description|
 |--------|-----------|
@@ -61,23 +61,33 @@ curl -L -O -J "URL"
 - List of Events: *AHT, HR, MHW*
 - Location: EastAsiaClimateExtremes/DATA/0.ExtremeEvents_WeeklyMonthly/
   
-|Event Profile  |Description|Extremeness Metrics (Weekly/Monthly)|Description|
-|-------|-----------|--------|-----------|
-|**Extreme Thresholds**|p90, p95|**Extreme Days**      |Number of days in the period when *T2M_e/TP_e/SST_e* exceed zero|            
-|**Event Criteria**    |D3G5, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|**Max. Intensity**    |Peak *T2M_e/TP_e/SST_e* observed during the period|
-|**Event Meta**        |*Start/End Date, Frequency, Duration, Mean/Peak Intensity* and so forth|**Impact Factor**     |Cumulative *T2M_e/TP_e/SST_e* over the period|            
+|Event Profile  |Description|
+|-------|-----------|
+|**Extreme Thresholds**|p90, p95|**Extreme Days**      |           
+|**Event Criteria**    |D3G5, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
+|**Event Meta**        |*Start/End Date, Frequency, Duration, Mean/Peak Intensity* and so forth|            
 >*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
 >*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
 
+|Extremeness Metrics (Weekly/Monthly)|Description|
+|--------|-----------|
+|**Extreme Days**      |Number of days in the period when *T2M_e/TP_e/SST_e* exceed zero|
+|**Max. Intensity**    |Peak *T2M_e/TP_e/SST_e* observed during the period|
+|**Impact Factor**     |Cumulative *T2M_e/TP_e/SST_e* over the period|
 
-***3. Data Format*** 
 
-|        |Description|
-|--------|------------|
-|Pickle|Easy to use by **importing pickle** (e.g. import pickle)|
-|NetCDF|If you have **Python version 3.8 or higher**, you can easily read **nc files** with **xarray**|  
 
-  **3.0. ECMWF-hindcast datasets**    
+***3. File Format*** 
+
+|        |Files in|Description|
+|--------|------------|----------------|
+|Pickle|0.ExtremeEvents_ERA5_OISST/1.Daily_ERA5_OISST|Easy to use by **importing pickle** (e.g. import pickle)|
+|NetCDF|2.Weekly_ERA5/3.Daily_ECMWFhindcasts|If you have **Python version 3.8 or higher**, you can easily read **nc files** with **xarray**|  
+
+
+***4. Data Details*** 
+
+  **4.0. ECMWF-hindcast datasets**    
 **The ECMWF-hindcast NetCDF data1** was reconstructed from ECMWF Hindcast versions **2016** and **2024**.
 For each forecast initialization date, data corresponding to **lead week 3 (days 15–21 after initialization)** were extracted and reorganized into daily records.  
   
