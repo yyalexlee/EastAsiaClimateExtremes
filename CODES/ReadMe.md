@@ -1,4 +1,4 @@
-### 🧮 Codes for Data Processing and Visualization
+## 🧮 Codes for Data Processing and Visualization
 | Code File | Description | Location |
 | ------ | ----- | ----- |
 | `0.display_EAextremes_event_statistics.py`| Code for calculating and displaying long-term mean and trend of event statistics | EastAsiaClimateExtremes/CODES/ |
@@ -7,18 +7,18 @@
   
 &nbsp;  
   
-### 📊 Output Details 
-***0. Historical Extreme Statistics***  
-- Daily/Weekly Timeseries and Extremeness
-- List of Events: *AHT, HR, MHW*  
-- Event Statistics: Frequeny, Duration, Mean Intensity 
+## 📊 Output Details 
+### ***0. Historical Extreme Statistics***  
+- Daily/Weekly Timeseries of *T2M/TP/SST*
+*for AHT/HR/MHW,*  
+- Event Statistics: Frequeny, Duration, Mean Intensity  
 - Weekly Extreme Statistics: Frequeny, Mean/Max Intensity per year  
  
-***1. Seasonality and Trend of Climate Extremes***  
+### ***1. Seasonality and Trend of Climate Extremes***  
 - Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
 - Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line
 
-***2. Example images after runing codes***   
+### ***2. Example images after runing codes***   
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.0. Line plot of daily timeseries: climatology, extreme threshold, events**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from `TART_visualization1_output.ipynb`)***  
