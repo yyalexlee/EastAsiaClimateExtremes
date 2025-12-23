@@ -1,1 +1,1 @@
-## This directory includes data files(.nc/.npy) created by example codes.
+## This directory includes data files(.nc/.npz) created by example codes.
