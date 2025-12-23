@@ -37,7 +37,7 @@ curl -L -O -J "URL"
 &nbsp;  
 ### 📝 Data Description
 
-####***0. Spatial/Temporal Coverage***  
+***0. Spatial/Temporal Coverage***  
 
 |         |Domain    |Resolution|
 |---------|----------|----------|
@@ -87,15 +87,15 @@ curl -L -O -J "URL"
 
 ***4. Data Details***  
 
-  **4.0. ECMWF-hindcast datasets**    
-**The ECMWF-hindcast NetCDF data1** was reconstructed from ECMWF Hindcast versions **2016** and **2024**.
-For each forecast initialization date, data corresponding to **lead week 3 (days 15–21 after initialization)** were extracted and reorganized into daily records.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4.0. ECMWF-hindcast datasets**    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**The ECMWF-hindcast NetCDF data1** was reconstructed from ECMWF Hindcast versions **2016** and **2024**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For each forecast initialization date, data corresponding to **lead week 3 (days 15–21 after initialization)** were extracted and reorganized into daily records.  
   
-| data1 information (***e.g., nc file: v2024_ECMWF_hindcast_T2M_w3_2004-2023.nc***) |
-| :---|
-|Dimensions: (time: 7140, latitude: 72, longitude: 72) <br> Coordinates: <br> * time (time) datetime64[ns] 57kB 2004-01-19 2004-01-20 ... 2024-01-15 <br> * latitude (latitude) float64 576B 57.0 55.5 54.0 52.5 ... -46.5 -48.0 -49.5 <br> * longitude (longitude) float64 576B 52.5 54.0 55.5 ... 156.0 157.5 159.0 <br> Data variables: <br> t2m (time, latitude, longitude) float32 148MB|  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| data1 information (***e.g., nc file: v2024_ECMWF_hindcast_T2M_w3_2004-2023.nc***) |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| :---|
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Dimensions: (time: 7140, latitude: 72, longitude: 72) <br> Coordinates: <br> * time (time) datetime64[ns] 57kB 2004-01-19 2004-01-20 ... 2024-01-15 <br> * latitude (latitude) float64 576B 57.0 55.5 54.0 52.5 ... -46.5 -48.0 -49.5 <br> * longitude (longitude) float64 576B 52.5 54.0 55.5 ... 156.0 157.5 159.0 <br> Data variables: <br> t2m (time, latitude, longitude) float32 148MB|  
 
-**The ECMWF-hindcast NetCDF data2** was generated based on **data 1**, 90th-percentile climatological thresholds nc file were computed for each ECMWF Hindcast version using the forecast issued dates.  
-| data2 information (***e.g., nc file: v2024_ECMWF_hindcast_T2M_w3_clim90th.nc***) |
-| :---|
-|Dimensions: (latitude: 72, longitude: 72, doy: 356) <br> Coordinates: <br> * latitude (latitude) float64 576B 57.0 55.5 54.0 52.5 ... -46.5 -48.0 -49.5 <br> * longitude (longitude) float64 576B 52.5 54.0 55.5 ... 156.0 157.5 159.0 <br> quantile      float64 8B ... <br> doy (doy) int64 3kB 1 3 4 5 6 7 8 ... 360 361 362 363 364 365 366 <br> Data variables: <br> t2m_clim90th (doy, latitude, longitude) float64 15MB|  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**The ECMWF-hindcast NetCDF data2** was generated based on **data 1**, 90th-percentile climatological thresholds nc file were computed for each ECMWF Hindcast version using the forecast issued dates.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| data2 information (***e.g., nc file: v2024_ECMWF_hindcast_T2M_w3_clim90th.nc***) |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| :---|
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Dimensions: (latitude: 72, longitude: 72, doy: 356) <br> Coordinates: <br> * latitude (latitude) float64 576B 57.0 55.5 54.0 52.5 ... -46.5 -48.0 -49.5 <br> * longitude (longitude) float64 576B 52.5 54.0 55.5 ... 156.0 157.5 159.0 <br> quantile      float64 8B ... <br> doy (doy) int64 3kB 1 3 4 5 6 7 8 ... 360 361 362 363 364 365 366 <br> Data variables: <br> t2m_clim90th (doy, latitude, longitude) float64 15MB|  
