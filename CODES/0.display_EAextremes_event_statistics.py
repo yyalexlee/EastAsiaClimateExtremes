@@ -178,7 +178,7 @@ stt[1] /= float(nyr)
 
 # 3. Save long-term event statistics in pickle
 # ----------------------------------------------------------------------------------------------------------------
-ofn = dir_out1+'stats.'+hd.upper()+'.'+mtr+'.'+prd_out+'.'+rg+'.npz'
+ofn = dir_out1+'stats.'+hd.upper()+'.thresh'+mtr[5:]+'.'+prd_out+'.'+rg+'.npz'
 np.savez(ofn,
          stt=stt, stt_t=stt_t,
          pts=pts,lat=lat,lon=lon)
@@ -278,7 +278,7 @@ for config in plot_configs:
 # 6. Save to exterenal figure file
 # ----------------------------------------------------------------------------------------------------------------
 fig.tight_layout(pad=0.0)
-ofn2 = dir_out2+'stats.'+hd.upper()+'.'+mtr+'.'+prd_out+'.'+rg+'.png'
+ofn2 = dir_out2+'stats.'+hd.upper()+'.thresh'+mtr[5:]+'.'+prd_out+'.'+rg+'.png'
 fig.savefig(ofn2,bbox_inches='tight')
 # ----------------------------------------------------------------------------------------------------------------
 
