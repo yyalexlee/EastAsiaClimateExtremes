@@ -41,7 +41,7 @@ curl -L -O -J "URL"
 
 |         |Domain    |Resolution|
 |---------|----------|----------|
-|**Space**|21-48N, 114-141E|1.5deg|
+|**Space**|21°-48°N, 114°-141°E|1.5deg|
 |**Time** |1940-2024(ERA5), 1982-2024(OISST), ECMWF-hindcast version 2016 & 2024|Daily / Weekly|  
 
 
