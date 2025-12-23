@@ -32,7 +32,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from `TART_visualization1_output.ipynb`)***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Monthly count of heavy rainfall events(D1G3, 90%tile) with trend (+/-)*  
 
-<img width="800" alt="hr90_D1G3sum_heatmap" src="https://github.com/user-attachments/assets/bbe22dff-5327-4627-b3a3-fb8d94ffbffa" /> 
 <img width="800" alt="hr90_D1G3sum_heatmap" src="../IMAGES/HR_D1G3_monthly_eventsums_heatmap.png" />  
 
 
