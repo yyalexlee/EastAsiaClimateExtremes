@@ -24,7 +24,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from `TART_visualization1_output.ipynb`)***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *T2m timeseries & Anomalous High Temerature event (D5G2, 90%tile)*  
 
-<img width="800" alt="2dmaps" src="../IMAGES/aht90_timeseries.png" />  
+<img width="800" alt="2dmaps" src="../IMAGES/AHT_thresh90_daily_timeseries.png" />  
 
 
 &nbsp;  
@@ -33,6 +33,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Monthly count of heavy rainfall events(D1G3, 90%tile) with trend (+/-)*  
 
 <img width="800" alt="hr90_D1G3sum_heatmap" src="https://github.com/user-attachments/assets/bbe22dff-5327-4627-b3a3-fb8d94ffbffa" /> 
+<img width="800" alt="hr90_D1G3sum_heatmap" src="../IMAGES/HR_D1G3_monthly_eventsums_heatmap.png" />  
 
 
 &nbsp;  
@@ -48,7 +49,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from `TART_visualization2_output.ipynb`)***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Counts of extreme weeks and their mean/max intensity per year based on weekly accumulated precipitation (1940-2024)*  
 
-<img width="800" alt="2dmaps" src="../IMAGES/HR_extreme_statistics_maps.png" />  
+<img width="800" alt="2dmaps" src="../IMAGES/.png" />  
 
 
 
