@@ -81,8 +81,8 @@ curl -L -O -J "URL"
 
 |        |Files in|Description|
 |--------|------------|----------------|
-|Pickle|0.ExtremeEvents_ERA5_OISST/1.Daily_ERA5_OISST|Easy to use by **importing pickle** (e.g. import pickle)|
-|NetCDF|2.Weekly_ERA5/3.Daily_ECMWFhindcasts|If you have **Python version 3.8 or higher**, you can easily read **nc files** with **xarray**|  
+|Pickle|0.ExtremeEvents_ERA5_OISST and 1.Daily_ERA5_OISST|Easy to use by **importing pickle** (e.g. import pickle)|
+|NetCDF|2.Weekly_ERA5 and 3.Daily_ECMWFhindcasts|If you have **Python version 3.8 or higher**, you can easily read **nc files** with **xarray**|  
 
 
 ***4. Data Details***  
