@@ -2,9 +2,10 @@
 
 Initiative for Developing an East Asia Climate Extremes Dataset!
 
-This repository provides historical data on climate extremes across the East Asia(EA) region, basically archiving **the events of regular grid-based climate extremes**, and **weekly/monthly extremeness metrics** can be utilized as labels for AI-based(or -assisted) models to predict anomalous climate events in East Asia. These efforts are part of the climate extreme prediction project led by the ART/APCC team (AI-based prediction Research and Technology at the APEC Climate Center). Currently, the repository focuses on extreme phenomena such as ***anomalously high temperatures(AHT)***, ***heavy rainfall(HR)***, and ***marine heatwaves(MHW)***, with the potential for further expansion. Additionally, it offers codes for analyzing and visualizing key statistics and characteristics of atmospheric and oceanic extremes. We hope this serves as a meaningful and practical starting point for researchers diving into studies on the dynamics and prediction of extreme phenomena. 
+This repository provides historical data on climate extremes across the East Asia(EA) region, basically archiving **the events of regular grid-based climate extremes**, and **weekly/monthly extremeness metrics** can be utilized as labels for AI-based(or -assisted) models to predict anomalous climate events in East Asia. These efforts are part of the climate extreme prediction project led by the ART/APCC team (AI-based prediction Research and Technology at the APEC Climate Center). Currently, the repository focuses on extreme phenomena such as ***anomalously high temperatures(AHT)***, ***heavy rainfall(HR)***, and ***marine heatwaves(MHW)***, with the potential for further expansion. Additionally, it offers codes for analyzing and visualizing key statistics and characteristics of atmospheric and oceanic extremes. We hope this serves as a meaningful and practical starting point for researchers diving into studies on the dynamics and prediction of extreme phenomena.  
 
-<img width="7750" height="3712" alt="inventory_intro" src="https://github.com/user-attachments/assets/75ad89f4-cc86-4b4c-a7d2-de80ec9ced01" />
+
+<img width="7883" height="3712" alt="githubmain" src="https://github.com/user-attachments/assets/87b64045-471f-4d1c-8069-19d878d16ddb" />
 
 
 ## Data Download
