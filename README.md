@@ -6,7 +6,7 @@ This repository provides historical data on climate extremes across the East Asi
 
 
 <img width="7883" height="3712" alt="githubmain" src="https://github.com/user-attachments/assets/87b64045-471f-4d1c-8069-19d878d16ddb" />
-
+<img width="720" alt="githubmain" src="https://github.com/user-attachments/assets/87b64045-471f-4d1c-8069-19d878d16ddb" />
 
 ## Data Download
 
