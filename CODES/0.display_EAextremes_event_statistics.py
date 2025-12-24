@@ -254,7 +254,7 @@ plot_configs = [
     },
     {
         'row': 4, 'col': 2, 'data': dur_t, 'title': '', 'unit': 'days/yr/decade',
-        'cmap': cmap2, 'ranges': {0: (2, -2.), 1: (1., -1), 2: (1.5, -1.5)}, 'nlevs': 21
+        'cmap': cmap2, 'ranges': {0: (2, -2.), 1: (1., -1), 2: (30, -30)}, 'nlevs': 21
     },
     {
         'row': 4, 'col': 3, 'data': mint_t, 'title': '', 'unit': unit+'/decade',
