@@ -53,12 +53,12 @@ curl -L -O -J "URL"
 |Variables         |2-m Air Temperature(T2M), Sea Surface Temperature(SST), Total Precipitation(TP)|
 |Type              |Original Timeseries, Climatological Long-Term Mean, 90/95th Percentile Thresholds(p90/p95)|
 |Resources         |ERA5, OISST(only for SST) and ECMWF-hindcast|
-|Location          |[EastAsiaClimateExtremes/DATA/1.Daily_ERA5_OISST/](./DATA/1.Daily_ERA5_OISST/), [2.Weekly_ERA5/](./DATA/2.Weekly_ERA5/), [3.Daily_ECMWFhindcasts/](./DATA/3.Daily_ECMWFhindcasts/)|
+|Location          |[EastAsiaClimateExtremes/DATA/1.Daily_ERA5_OISST/](./1.Daily_ERA5_OISST/), [2.Weekly_ERA5/](./2.Weekly_ERA5/), [3.Daily_ECMWFhindcasts/](./3.Daily_ECMWFhindcasts/)|
 
 
 ### ***2. Event Profile & Extremeness Metrics***
 - List of Events: *AHT, HR, MHW*
-- Location: [EastAsiaClimateExtremes/DATA/0.ExtremeEvents_ERA5_OISST/](./DATA/0.ExtremeEvents_ERA5_OISST/)
+- Location: [EastAsiaClimateExtremes/DATA/0.ExtremeEvents_ERA5_OISST/](./0.ExtremeEvents_ERA5_OISST/)
   
 |Event Profile  |Description|
 |-------|-----------|
