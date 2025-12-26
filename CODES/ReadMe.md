@@ -48,7 +48,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`TART_visualization2_output.ipynb`](./TART_visualization2_output.ipynb))***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Counts of extreme weeks and their mean/max intensity per year based on weekly accumulated precipitation (1940-2024)*  
 
-<img width="800" alt="2dmaps" src="../IMAGES/.png" />  
+<img width="800" alt="2dmaps" src="../IMAGES/weeklyHR_stats_maps__1991-2020__p90.png" />  
 
 
 
