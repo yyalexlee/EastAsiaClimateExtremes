@@ -24,7 +24,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`TART_visualization1_output.ipynb`](./TART_visualization1_output.ipynb))***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *T2m timeseries & Anomalous High Temerature event (D5G2, 90%tile)*  
 
-<img width="800" alt="2dmaps" src="../IMAGES/AHT_thresh90_daily_timeseries.png" />  
+<img width="800" alt="2dmaps" src="../IMAGES/AHT_daily_timeseries__1991-2020__p90__D3G5.png" />  
 
 
 &nbsp;  
@@ -32,7 +32,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`TART_visualization1_output.ipynb`](./TART_visualization1_output.ipynb))***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Monthly count of heavy rainfall events(D1G3, 90%tile) with trend (+/-)*  
 
-<img width="800" alt="hr90_D1G3sum_heatmap" src="../IMAGES/HR_D1G3_monthly_eventsums_heatmap.png" />  
+<img width="800" alt="hr90_D1G3sum_heatmap" src="../IMAGES/HR_monthly_eventsums_heatmap__1991-2020__p90__D1G3.png" />  
 
 
 &nbsp;  
