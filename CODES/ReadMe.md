@@ -40,7 +40,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`0.display_EAextremes_event_statistics.py`](./0.display_EAextremes_event_statistics.py))***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Marin Heatwave event (D5G2, 90%tile) statistics (1982-2024)*  
 
-<img width="800" alt="stats mhw event90_D5G2 1982-2024 EA1 5" src="https://github.com/user-attachments/assets/ed1b7fc3-bf63-4927-be77-b6388c13f758" />
+<img width="800" alt="stats mhw event90_D5G2 1982-2024 EA1 5" src="../IMAGES/MHW.stats.maps__OISST.p90_D5G2.1982-2024.EA1.5.png" />
 
   
 &nbsp;  
