@@ -78,8 +78,8 @@ This repository provides historical data on climate extremes across the East Asi
 |----------|--------|--------|
 |Daily based extreme events, Yearly event counts|NetCDF|Timeseries| 
 |Monthly Event Counts+Trend(+/-)|NetCDF|Heatmaps  | 
-|Long-term Mean/Trend of Event Statistics| Numpy, [*e.g. MHW.stats__OISST.p90_D5G2.1982-2024.EA1.5.npz*](./OUTPUTS/MHW.stats__OISST.p90_D5G2.1982-2024.EA1.5.npz)|2D maps   |
-|Count of Extreme Weeks, Mean/Max Intensity| NetCDF, [*e.g. weeklyHR_stats_maps__1991-2020__p90.nc*](./OUTPUTS/weeklyHR_stats_maps__1991-2020__p90.nc)|2D maps   |
+|Long-term Mean/Trend of Event Statistics| Numpy, <br>e.g. [*MHW.stats__OISST.p90_D5G2.1982-2024.EA1.5.npz*](./OUTPUTS/MHW.stats__OISST.p90_D5G2.1982-2024.EA1.5.npz)|2D maps   |
+|Count of Extreme Weeks, Mean/Max Intensity| NetCDF, <br>e.g. [*weeklyHR_stats_maps__1991-2020__p90.nc*](./OUTPUTS/weeklyHR_stats_maps__1991-2020__p90.nc)|2D maps   |
 
 
 
