@@ -69,14 +69,16 @@ This repository provides historical data on climate extremes across the East Asi
 
 | Code File | Description |
 | ------ | ----- | 
-| [`0.display_EAextremes_event_statistics.py`](./CODES/0.display_EAextremes_event_statistics.py)| Code for calculating and displaying long-term mean and trend of event statistics |
 | [`Extreme_Event_Statistics_and_Visualization.ipynb`](./CODES/Extreme_Event_Statistics_and_Visualization.ipynb) | Code for timeseries and heatmap visualization |
+| [`Extreme_Event_Statistics_and_Visualization.2.py`](./CODES/Extreme_Event_Statistics_and_Visualization.2.py)| Code for calculating and displaying long-term mean and trend of event statistics |
 | [`Weekly_Extreme_Statistics_and_Visualization.ipynb`](./CODES/Weekly_Extreme_Statistics_and_Visualization.ipynb) | Code for 2-D map visualization of long-term statistics of weekly climate extremes |
 
 ## Ouput Details
+- Location: [ EastAsiaClimateExtremes/OUTPUTS/](./OUTPUTS/)
+
 | Outputs  |File Format |Visualization |
 |----------|--------|--------|
-|Daily based extreme events, Yearly event counts|NetCDF|Timeseries| 
+|Daily based extreme events, Yearly event counts|NetCDF, <br>e.g. [*AHT_daily_timeseries__1991-2020__p90__D3G5.nc*](./OUTPUTS/AHT_daily_timeseries__1991-2020__p90__D3G5.nc)|Timeseries| 
 |Monthly Event Counts+Trend(+/-)|NetCDF|Heatmaps  | 
 |Long-term Mean/Trend of Event Statistics| Numpy, <br>e.g. [*MHW.stats__OISST.p90_D5G2.1982-2024.EA1.5.npz*](./OUTPUTS/MHW.stats__OISST.p90_D5G2.1982-2024.EA1.5.npz)|2D maps   |
 |Count of Extreme Weeks, Mean/Max Intensity| NetCDF, <br>e.g. [*weeklyHR_stats_maps__1991-2020__p90.nc*](./OUTPUTS/weeklyHR_stats_maps__1991-2020__p90.nc)|2D maps   |
