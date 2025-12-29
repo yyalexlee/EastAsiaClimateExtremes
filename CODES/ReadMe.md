@@ -2,8 +2,8 @@
 | Code File | Description | Location |
 | ------ | ----- | ----- |
 | [`0.display_EAextremes_event_statistics.py`](./0.display_EAextremes_event_statistics.py)| Code for calculating and displaying long-term mean and trend of event statistics | EastAsiaClimateExtremes/CODES/ |
-| [`TART_visualization1_output.ipynb`](./TART_visualization1_output.ipynb) | Code for timeseries and heatmap visualization | EastAsiaClimateExtremes/CODES/|
-| [`TART_visualization2_output.ipynb`](./TART_visualization2_output.ipynb) | Code for 2-D map visualization of long-term statistics of weekly climate extremes | EastAsiaClimateExtremes/CODES/|  
+| [`Extreme_Event_Statistics_and_Visualization.ipynb`](./Extreme_Event_Statistics_and_Visualization.ipynb) | Code for timeseries and heatmap visualization | EastAsiaClimateExtremes/CODES/|
+| [`Weekly_Extreme_Statistics_and_Visualization.ipynb`](./Weekly_Extreme_Statistics_and_Visualization.ipynb) | Code for 2-D map visualization of long-term statistics of weekly climate extremes | EastAsiaClimateExtremes/CODES/|  
 &nbsp;  
   
 ## 📊 Output Details 
@@ -21,7 +21,7 @@
 ### ***2. Example images after runing codes***   
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.0. Line plot of daily timeseries: climatology, extreme threshold, events**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`TART_visualization1_output.ipynb`](./TART_visualization1_output.ipynb))***  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`Extreme_Event_Statistics_and_Visualization.ipynb`](./Extreme_Event_Statistics_and_Visualization.ipynb))***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *T2m timeseries & Anomalous High Temerature event (D5G2, 90%tile)*  
 
 <img width="800" alt="2dmaps" src="../IMAGES/AHT_daily_timeseries__1991-2020__p90__D3G5.png" />  
@@ -29,7 +29,7 @@
 
 &nbsp;  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.1. Heatmap of Monthly Extreme Event Statistics: frequency and trend**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`TART_visualization1_output.ipynb`](./TART_visualization1_output.ipynb))***  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`Extreme_Event_Statistics_and_Visualization.ipynb`](./Extreme_Event_Statistics_and_Visualization.ipynb))***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Monthly count of heavy rainfall events(D1G3, 90%tile) with trend (+/-)*  
 
 <img width="800" alt="hr90_D1G3sum_heatmap" src="../IMAGES/HR_monthly_eventsums_heatmap__1991-2020__p90__D1G3.png" />  
@@ -45,7 +45,7 @@
   
 &nbsp;  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.3. 2D Maps of "Weekly" Extremes Statistics**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`TART_visualization2_output.ipynb`](./TART_visualization2_output.ipynb))***  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`Weekly_Extreme_Statistics_and_Visualization.ipynb`](./Weekly_Extreme_Statistics_and_Visualization.ipynb))***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Counts of extreme weeks and their mean/max intensity per year based on weekly accumulated precipitation (1940-2024)*  
 
 <img width="800" alt="2dmaps" src="../IMAGES/weeklyHR_stats_maps__1991-2020__p90.png" />  
