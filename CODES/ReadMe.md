@@ -1,8 +1,8 @@
 ## 🧮 Codes for Data Processing and Visualization
 | Code File | Description | Location |
 | ------ | ----- | ----- |
-| [`0.display_EAextremes_event_statistics.py`](./0.display_EAextremes_event_statistics.py)| Code for calculating and displaying long-term mean and trend of event statistics | EastAsiaClimateExtremes/CODES/ |
 | [`Extreme_Event_Statistics_and_Visualization.ipynb`](./Extreme_Event_Statistics_and_Visualization.ipynb) | Code for timeseries and heatmap visualization | EastAsiaClimateExtremes/CODES/|
+| [`Extreme_Event_Statistics_and_Visualization.2.py`](./0.display_EAextremes_event_statistics.py)| Code for calculating and displaying long-term mean and trend of event statistics | EastAsiaClimateExtremes/CODES/ |
 | [`Weekly_Extreme_Statistics_and_Visualization.ipynb`](./Weekly_Extreme_Statistics_and_Visualization.ipynb) | Code for 2-D map visualization of long-term statistics of weekly climate extremes | EastAsiaClimateExtremes/CODES/|  
 &nbsp;  
   
