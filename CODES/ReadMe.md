@@ -10,9 +10,11 @@
   
 ## 📊 Output Details 
 ### ***0. Historical Extreme Statistics***  
-- Daily/Weekly Timeseries of *T2M/TP/SST* and isolated AHT/HR/MHW events    
-- Event Statistics: Frequeny, Duration, Mean Intensity *for AHT/HR/MHW* 
-- Weekly Extreme Statistics: Frequeny, Mean/Max Intensity per year *for **Weekly** AHT/HR/MHW,* 
+
+*for AHT/HR/MHW,*
+- Daily/Weekly Timeseries of *T2M/TP/SST* and Extreme Events Isolation    
+- Event Statistics: Frequeny, Duration, Mean Intensity 
+- **Weekly** Extreme Statistics: Frequeny, Mean/Max Intensity per year 
  
 ### ***1. Seasonality and Trend of Climate Extremes***  
 - Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
