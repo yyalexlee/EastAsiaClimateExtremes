@@ -3,8 +3,8 @@
 
 | Code File | Description |
 | ------ | ----- | 
-| [`Extreme_Event_Statistics_and_Visualization.ipynb`](./CODES/Extreme_Event_Statistics_and_Visualization.ipynb) | Code for timeseries and heatmap visualization |
-| [`Extreme_Event_Statistics_and_Visualization.2.py`](./CODES/Extreme_Event_Statistics_and_Visualization.2.py)| Code for calculating and displaying long-term mean and trend of event statistics |
+| [`Extreme_Event_Statistics_and_Visualization_1.ipynb`](./CODES/Extreme_Event_Statistics_and_Visualization_1.ipynb) | Code for timeseries and heatmap visualization |
+| [`Extreme_Event_Statistics_and_Visualization_2.py`](./CODES/Extreme_Event_Statistics_and_Visualization_2.py)| Code for calculating and displaying long-term mean and trend of event statistics |
 | [`Weekly_Extreme_Statistics_and_Visualization.ipynb`](./CODES/Weekly_Extreme_Statistics_and_Visualization.ipynb) | Code for 2-D map visualization of long-term statistics of weekly climate extremes |
 &nbsp;  
   
@@ -23,18 +23,18 @@
 ### ***2. Example images after runing codes***   
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.0. Line plot of daily timeseries: climatology, extreme threshold, events**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`Extreme_Event_Statistics_and_Visualization.ipynb`](./Extreme_Event_Statistics_and_Visualization.ipynb))***  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`Extreme_Event_Statistics_and_Visualization_1.ipynb`](./Extreme_Event_Statistics_and_Visualization_1.ipynb))***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *T2m timeseries & Anomalous High Temerature event (D5G2, 90%tile)*  
 
-<img width="800" alt="2dmaps" src="../IMAGES/AHT_daily_timeseries__1991-2020__p90__D3G5.png" />  
+<img width="800" alt="2dmaps" src="../IMAGES/AHT_daily_timeseries__2024-01-01-2024-12-31__p90__D3G5.png" />  
 
 
 &nbsp;  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.1. Heatmap of Monthly Extreme Event Statistics: frequency and trend**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`Extreme_Event_Statistics_and_Visualization.ipynb`](./Extreme_Event_Statistics_and_Visualization.ipynb))***  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`Extreme_Event_Statistics_and_Visualization_1.ipynb`](./Extreme_Event_Statistics_and_Visualization_1.ipynb))***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Monthly count of heavy rainfall events(D1G3, 90%tile) with trend (+/-)*  
 
-<img width="800" alt="hr90_D1G3sum_heatmap" src="../IMAGES/HR_monthly_eventsums_heatmap__1991-2020__p90__D1G3.png" />  
+<img width="800" alt="hr90_D1G3sum_heatmap" src="../IMAGES/HR_monthly_eventsums_heatmap__1940-2024__p90__D1G3.png" />  
 
 
 &nbsp;  
@@ -50,7 +50,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`Weekly_Extreme_Statistics_and_Visualization.ipynb`](./Weekly_Extreme_Statistics_and_Visualization.ipynb))***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Counts of extreme weeks and their mean/max intensity per year based on weekly accumulated precipitation (1940-2024)*  
 
-<img width="800" alt="2dmaps" src="../IMAGES/weeklyHR_stats_maps__1991-2020__p90.png" />  
+<img width="800" alt="2dmaps" src="../IMAGES/weeklyHR_stats_maps__1940-2024__p90.png" />  
 
 
 
