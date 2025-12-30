@@ -11,7 +11,7 @@
 ## 📊 Output Details 
 ### ***0. Historical Extreme Statistics***  
 - Daily/Weekly Timeseries of *T2M/TP/SST* and isolated AHT/HR/MHW events  
-&nbsp;&nbsp;&nbsp;*for AHT/HR/MHW,*  
+&nbsp;*for AHT/HR/MHW,*  
 - Event Statistics: Frequeny, Duration, Mean Intensity  
 - Weekly Extreme Statistics: Frequeny, Mean/Max Intensity per year  
  
