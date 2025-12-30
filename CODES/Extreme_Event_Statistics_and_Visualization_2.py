@@ -34,6 +34,7 @@ dir0 = 'YOUR WORKING DIRECTORY/'
 dir_in = dir0 + 'DATA/0.ExtremeEvents_ERA5_OISST/'
 dir_out1 = dir0 + 'OUTPUTS/'
 dir_out2 = dir0 + 'IMAGES/'
+rg = 'EA1.5'
 
 hd = 'mhw'  # choose 'aht' or 'hr' or 'mhw'
 mtr = 'event90_D5G2'
@@ -41,8 +42,9 @@ mtr = 'event90_D5G2'
     # 'hr':  mtr = 'event90_D1G3' 'event90_D3G3' 'event95_D1G3' 'event95_D3G3'
     # 'mhw': mtr = 'event90_D5G2' 'event90_D3G5' 'event95_D5G2' 'event95_D3G5'
 rean = 'oisst' # chosse 'era5' or 'oisst', 'oisst' available only for mhw
-rg = 'EA1.5'
-syr,eyr = 1982, 2024
+syr,eyr = 1982, 2024 
+    # 'era5' :syr,eyr = 1940,2024 
+    # 'oisst':syr,eyr = 1982,2024 
 nyr = eyr - syr + 1
 prd_out = str(syr)+'-'+str(eyr)
 # ----------------------------------------------------------------------------------------------------------------
