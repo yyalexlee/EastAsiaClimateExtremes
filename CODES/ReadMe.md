@@ -13,12 +13,12 @@
 
 *for AHT/HR/MHW,*
 - Daily/Weekly Timeseries of *T2M/TP/SST* and Extreme Events Isolation    
-- ***Event*** Statistics: Frequeny, Duration, Mean Intensity 
+- ***Event*** Statistics: Frequeny, Duration(Total Days), Mean Intensity 
 - ***Weekly*** Extreme Statistics: Frequeny, Mean/Max Intensity per year 
  
 ### ***1. Seasonality and Trend of Climate Extremes***  
-- Seasonal Evolution of Event Frequency/Duration/Mean Intensity  
-- Annual Timeseries of Frequency/Duration/Mean Intensity per Year and its Least-Squared Fitted Line
+- Seasonal Evolution of Event Frequency/Duration(Total Days)/Mean Intensity  
+- Annual Timeseries of Frequency/Duration(Total Days)/Mean Intensity per Year and its Least-Squared Fitted Line
 
 ### ***2. Example images after runing codes***   
 
@@ -38,7 +38,7 @@
 
 
 &nbsp;  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.2. 2D Maps of Extreme "Event" Statistics: long-term mean/trend of frq./duration/mean intensity**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.2. 2D Maps of Extreme "Event" Statistics: long-term mean/trend of frq./duration(total days)/mean intensity**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`Extreme_Event_Statistics_and_Visualization_2.py`](./Extreme_Event_Statistics_and_Visualization_2.py))***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Marin Heatwave event (D5G2, 90%tile) statistics (1982-2024)*  
 
