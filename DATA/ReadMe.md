@@ -57,7 +57,7 @@ curl -L -O -J "URL"
 
 
 ### ***2. Event Profile & Extremeness Metrics***
-- List of Events: *AHT, HR, MHW*
+- List of Extreme Phenomena: *AHT, HR, MHW*
 - Location: [EastAsiaClimateExtremes/DATA/0.ExtremeEvents_ERA5_OISST/](./0.ExtremeEvents_ERA5_OISST/)
   
 |Event Profile  |Description|
