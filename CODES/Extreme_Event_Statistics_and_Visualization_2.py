@@ -247,7 +247,7 @@ plot_configs = [
         'cmap': cmap1, 'ranges': {0: (30, 10), 1: (55., 45.), 2: (40., 20.)}, 'nlevs': 21
     },
     {
-        'row': 1, 'col': 3, 'data': mint, 'title': 'Mean Intencity', 'unit': unit,
+        'row': 1, 'col': 3, 'data': mint, 'title': 'Mean Intensity', 'unit': unit,
         'cmap': cmap1, 'ranges': {0: (8, 0), 1: (35, 5.), 2: (2.4, 1.2)}, 'nlevs': 21
     },
     # Trend metrics
