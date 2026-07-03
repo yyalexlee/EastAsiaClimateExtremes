@@ -29,7 +29,7 @@ This repository provides historical data on climate extremes across the East Asi
   
 ## Data Description
 
-***0. Spatial/Temporal Coverage***  
+### ***0. Spatial/Temporal Coverage***  
 
 |         |Domain    |Resolution|
 |---------|----------|----------|
