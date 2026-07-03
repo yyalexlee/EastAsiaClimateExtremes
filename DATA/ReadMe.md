@@ -61,7 +61,7 @@ curl -L -O -J "URL"
 - Thresholds: p90, p95
 - Location: [EastAsiaClimateExtremes/DATA/0.ExtremeEvents_ERA5_OISST/](./0.ExtremeEvents_ERA5_OISST/)
 
-**2.0 Weekly/Monthly Extremeness Metrics**
+#### **2.0 Weekly/Monthly Extremeness Metrics**
 |        |Description|
 |--------|-----------|
 |**Extreme Days**      |Number of days in the period when *T2M_e/TP_e/SST_e* exceed zero|
@@ -69,7 +69,7 @@ curl -L -O -J "URL"
 |**Impact Factor**     |Cumulative *T2M_e/TP_e/SST_e* over the period|
 >*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
 
-**2.1 Event Profile**  
+#### **2.1 Event Profile**  
 |       |Description|
 |-------|-----------|          
 |**Event Criteria**    |D3G5, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
@@ -85,7 +85,7 @@ curl -L -O -J "URL"
 |**NetCDF**|2.Weekly_ERA5 and 3.Daily_ECMWFhindcasts|If you have **Python version 3.8 or higher**, you can easily read **nc files** with **xarray**|  
 
 
-**3.0. ECMWF-hindcast datasets**    
+#### **3.0. ECMWF-hindcast datasets**    
 **The ECMWF-hindcast NetCDF data1** was reconstructed from ECMWF Hindcast versions **2016** and **2024**.  
 For each forecast initialization date, data corresponding to **lead week 3 (days 15–21 after initialization)** were extracted and reorganized into daily records.  
   
