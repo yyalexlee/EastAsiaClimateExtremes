@@ -56,24 +56,25 @@ curl -L -O -J "URL"
 |Location          |[EastAsiaClimateExtremes/DATA/1.Daily_ERA5_OISST/](./1.Daily_ERA5_OISST/), [2.Weekly_ERA5/](./2.Weekly_ERA5/), [3.Daily_ECMWFhindcasts/](./3.Daily_ECMWFhindcasts/)|
 
 
-### ***2. Event Profile & Extremeness Metrics***
+### ***2. Processed Extreme Data***
 - List of Extreme Phenomena: *AHT, HR, MHW*
+- Thresholds: p90, p95
 - Location: [EastAsiaClimateExtremes/DATA/0.ExtremeEvents_ERA5_OISST/](./0.ExtremeEvents_ERA5_OISST/)
-  
-|Event Profile  |Description|
-|-------|-----------|
-|**Extreme Thresholds**|p90, p95|**Extreme Days**      |           
-|**Event Criteria**    |D3G5, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
-|**Event Meta**        |*Start/End Date, Frequency, Duration, Mean/Peak Intensity* and so forth|            
->*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
->*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
 
-|Extremeness Metrics (Weekly/Monthly)|Description|
+**2.0 Weekly/Monthly Extremeness Metrics**
+|        |Description|
 |--------|-----------|
 |**Extreme Days**      |Number of days in the period when *T2M_e/TP_e/SST_e* exceed zero|
 |**Max. Intensity**    |Peak *T2M_e/TP_e/SST_e* observed during the period|
 |**Impact Factor**     |Cumulative *T2M_e/TP_e/SST_e* over the period|
+>*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
 
+**2.1 Event Profile**  
+|       |Description|
+|-------|-----------|          
+|**Event Criteria**    |D3G5, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
+|**Event Meta**        |*N_events, Start/End Date, Duration, Mean/Peak Intensity* and so forth|            
+>*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
 
 
 ### ***3. File Format & Details*** 
