@@ -8,7 +8,6 @@
 | [`Weekly_Extreme_Statistics_and_Visualization.ipynb`](./Weekly_Extreme_Statistics_and_Visualization.ipynb) | Code for 2-D map visualization of long-term statistics of weekly climate extremes |
 | [`ECMWF_Extreme_Statistics_and_Visualization.ipynb`](./ECMWF_Extreme_Statistics_and_Visualization.ipynb) | Code for comparing ECMWF hindcast and ERA5 AHT statistics and visualization |
 &nbsp; 
-  
 ## 📊 Output Details 
 ### ***0. Historical Extreme Statistics***  
 
