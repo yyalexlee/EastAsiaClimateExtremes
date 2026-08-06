@@ -7,7 +7,7 @@ DataFilesforEastAsiaClimateExtremes
 ├── 0.ExtremeEvents_ERA5_OISST
 ├── 1.Daily_ERA5_OISST
 ├── 2.Weekly_ERA5
-└── 3.Daily_ECMWFhindcasts
+└── 3.Weekly_ECMWFhindcasts
 ```
 
 To download the compressed dataset, use the following command:
@@ -24,9 +24,9 @@ wget -O 1.Daily_ERA5_OISST.zip "https://www.dropbox.com/scl/fo/t8082lha97fi5ebqs
 ```
 wget -O 2.Weekly_ERA5.zip "https://www.dropbox.com/scl/fo/w12fdxsv89tfhphrrot1l/AD7IuKrO3LrVvkCN1hEA2c0?rlkey=67vr21cu88jt9q625lzboocao&st=yo63qu2p&dl=0"
 ```
-3. ***Daily_ECMWFhindcasts***: Daily Data and Extreme Threshold (ECMWF-hindcast ver.2016/ver.2024)
+3. ***Weekly_ECMWFhindcasts***: Daily Data and Extreme Threshold (ECMWF-hindcast ver.2016/ver.2024)
 ```
-wget -O 3.Daily_ECMWFhindcasts.zip "https://www.dropbox.com/scl/fo/sv3lu1e3qzwwtt6dqnzkq/AEI6Vn0BLPvGmnynbGZ6_Gk?rlkey=8bdbyjjjg472mimxx1lpk9v3b&st=npjwog3p&dl=0"    
+wget -O 3.Weekly_ECMWFhindcasts.zip "https://www.dropbox.com/scl/fo/sv3lu1e3qzwwtt6dqnzkq/AEI6Vn0BLPvGmnynbGZ6_Gk?rlkey=8bdbyjjjg472mimxx1lpk9v3b&st=npjwog3p&dl=0"    
 ```
 
 You can also use curl on Windows, which is available by default on most recent versions, with the following options -L -O -J.
