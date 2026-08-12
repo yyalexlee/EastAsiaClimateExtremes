@@ -80,7 +80,7 @@ This repository provides historical data on climate extremes across the East Asi
 | [`Extreme_Event_Statistics_and_Visualization_1.ipynb`](./CODES/Extreme_Event_Statistics_and_Visualization_1.ipynb) | Code for timeseries and heatmap visualization |
 | [`Extreme_Event_Statistics_and_Visualization_2.py`](./CODES/Extreme_Event_Statistics_and_Visualization_2.py)| Code for calculating and displaying long-term mean and trend of event statistics |
 | [`Weekly_Extreme_Statistics_and_Visualization.ipynb`](./CODES/Weekly_Extreme_Statistics_and_Visualization.ipynb) | Code for 2-D map visualization of long-term statistics of weekly climate extremes |
-| [`Weekly_Extreme_Statistics_and_Visualization_ECMWF.ipynb`](./CODES/Weekly_Extreme_Statistics_and_Visualization_ECMWF.ipynb) | Code for comparing ECMWF hindcast and ERA5 AHT statistics and visualization |
+| [`Weekly_Extreme_Statistics_and_Visualization_ECMWF.ipynb`](./CODES/Weekly_Extreme_Statistics_and_Visualization_ECMWF.ipynb) | Code for comparison of ECMWF hindcasts and ERA5 weekly extremes |
 
 ## Ouput Details
 - Location: [ EastAsiaClimateExtremes/OUTPUTS/](./OUTPUTS/)
