@@ -57,7 +57,7 @@
 &nbsp;  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.4. Spatial Distribution of Lead-Week-3 AHT Frequency**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`Weekly_Extreme_Statistics_and_Visualization_ECMWF.ipynb`](./Weekly_Extreme_Statistics_and_Visualization_ECMWF.ipynb))***  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Mean annual AHT frequency for ERA5 and ECMWF Hindcast based on dataset-specific 90th percentile thresholds*  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Mean annual frequency of AHT weeks for ERA5 and ECMWF hindcast based on dataset-specific 90th percentile thresholds*  
 
 <img width="800" alt="2dmaps" src="../IMAGES/AHT_mean_annual_frequency90_ERA5_ECMWF.png" />  
 
