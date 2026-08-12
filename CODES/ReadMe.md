@@ -6,7 +6,7 @@
 | [`Extreme_Event_Statistics_and_Visualization_1.ipynb`](./Extreme_Event_Statistics_and_Visualization_1.ipynb) | Code for timeseries and heatmap visualization |
 | [`Extreme_Event_Statistics_and_Visualization_2.py`](./Extreme_Event_Statistics_and_Visualization_2.py)| Code for calculating and displaying long-term mean and trend of event statistics |
 | [`Weekly_Extreme_Statistics_and_Visualization.ipynb`](./Weekly_Extreme_Statistics_and_Visualization.ipynb) | Code for 2-D map visualization of long-term statistics of weekly climate extremes |
-| [`Weekly_Extreme_Statistics_and_Visualization_ECMWF.ipynb`](./Weekly_Extreme_Statistics_and_Visualization_ECMWF.ipynb) | Code for comparing ECMWF hindcast and ERA5 AHT statistics and visualization |
+| [`Weekly_Extreme_Statistics_and_Visualization_ECMWF.ipynb`](./Weekly_Extreme_Statistics_and_Visualization_ECMWF.ipynb) | Code for comparison of ECMWF hindcasts and ERA5 weekly extremes |
 
 &nbsp;
 ## 📊 Output Details 
