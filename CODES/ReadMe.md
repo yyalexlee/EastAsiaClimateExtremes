@@ -4,7 +4,7 @@
 | Code File | Description |
 | ------ | ----- | 
 | [`Extreme_Event_Statistics_and_Visualization_1.ipynb`](./Extreme_Event_Statistics_and_Visualization_1.ipynb) | Code for timeseries and heatmap visualization |
-| [`Extreme_Event_Statistics_and_Visualization_2.py`](./Extreme_Event_Statistics_and_Visualization_2.py)| Code for calculating and displaying long-term mean and trend of event statistics |
+| [`Extreme_Event_Statistics_and_Visualization_2.ipynb`](./Extreme_Event_Statistics_and_Visualization_2.ipynb)| Code for calculating and displaying long-term mean and trend of event statistics |
 | [`Weekly_Extreme_Statistics_and_Visualization.ipynb`](./Weekly_Extreme_Statistics_and_Visualization.ipynb) | Code for 2-D map visualization of long-term statistics of weekly climate extremes |
 | [`Weekly_Extreme_Statistics_and_Visualization_ECMWF.ipynb`](./Weekly_Extreme_Statistics_and_Visualization_ECMWF.ipynb) | Code for comparison of ECMWF hindcasts and ERA5 weekly extremes |
 
@@ -40,7 +40,7 @@
 
 &nbsp;  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.2. 2D Maps of Extreme "Event" Statistics: long-term mean/trend of frq./duration(total days)/mean intensity**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`Extreme_Event_Statistics_and_Visualization_2.py`](./Extreme_Event_Statistics_and_Visualization_2.py))***  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***(from [`Extreme_Event_Statistics_and_Visualization_2.ipynb`](./Extreme_Event_Statistics_and_Visualization_2.ipynb))***  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ *Historical statistics of Marine HeatWave events (D5G2, 90%tile) (1982-2024)*  
 
 <img width="800" alt="stats mhw event90_D5G2 1982-2024 EA1 5" src="../IMAGES/MHW.stats.maps__OISST.p90_D5G2.1982-2024.EA1.5.png" />
