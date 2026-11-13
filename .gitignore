@@ -1,0 +1,14 @@
+# large data are distributed separately (see DATA/ReadMe.md); never commit them
+*.pkl
+*.zip
+*.h5
+*.hdf5
+*.grib
+*.grb
+*.npy
+
+# caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

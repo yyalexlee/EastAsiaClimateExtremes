@@ -1,0 +1,108 @@
+# EastAsiaClimateExtremes
+
+Initiative for Developing an East Asia Climate Extremes Dataset!
+
+This repository provides historical data on climate extremes across the East Asia(EA) region, archiving **the events of regular grid-based climate extremes** and **weekly/monthly extremeness metrics**. These data can be utilized as labels for AI-based (or AI-assisted) models to predict anomalous climate events in East Asia. These efforts are part of the climate extreme prediction project led by the ART/APCC team (AI-based prediction Research and Technology at the APEC Climate Center). Currently, the repository focuses on extreme phenomena such as ***anomalously high temperatures(AHT)***, ***heavy rainfall(HR)***, and ***marine heatwaves(MHW)***, with the potential for further expansion. Additionally, it offers codes for analyzing and visualizing key statistics and characteristics of atmospheric and oceanic extremes. We hope this repository serves as a meaningful and practical starting point for researchers diving into research on the dynamics and prediction of extreme phenomena.  
+
+
+<img width="1440" alt="githubmain" src="https://github.com/user-attachments/assets/87b64045-471f-4d1c-8069-19d878d16ddb" />
+
+
+## Data Download
+
+&nbsp;&nbsp;&nbsp;&nbsp;**0. Extreme Event Profile and Weekly/Monthly Extremeness Metrics (ERA5/OISST)**
+  ```
+  wget -O 0.ExtremeEvents_ERA5_OISST.zip "https://www.dropbox.com/scl/fo/5hcy3r8jxd6o9qaa267bf/AMI0pTgTvZWf1MXq7SgAZwk?rlkey=z3x1kyrynjeg0wctprfk31aj1&st=ryo0cv1h&dl=0"  
+  ```
+&nbsp;&nbsp;&nbsp;&nbsp;**1. Daily Data and Extreme Threshold (ERA5/OISST)**
+  ```
+  wget -O 1.Daily_ERA5_OISST.zip "https://www.dropbox.com/scl/fo/t8082lha97fi5ebqsq77x/ACZu-o6b-b4e05S81-7BkQs?rlkey=d5v7ztkp71nb4d7jx19pgv97u&st=9h8y9v6x&dl=0"  
+  ```
+&nbsp;&nbsp;&nbsp;&nbsp;**2. Weekly Data and Extreme Threshold (ERA5)**
+  ```
+  wget -O 2.Weekly_ERA5.zip "https://www.dropbox.com/scl/fo/w12fdxsv89tfhphrrot1l/AD7IuKrO3LrVvkCN1hEA2c0?rlkey=67vr21cu88jt9q625lzboocao&st=yo63qu2p&dl=0"
+  ```
+&nbsp;&nbsp;&nbsp;&nbsp;**3. Daily Data and Extreme Threshold (ECMWF-hindcast ver.2016/ver.2024)**
+  ```
+  wget -O 3.Daily_ECMWFhindcasts.zip "https://www.dropbox.com/scl/fo/sv3lu1e3qzwwtt6dqnzkq/AEI6Vn0BLPvGmnynbGZ6_Gk?rlkey=8bdbyjjjg472mimxx1lpk9v3b&st=npjwog3p&dl=0"  
+  ```
+  
+## Data Description
+
+### ***0. Spatial/Temporal Coverage***  
+
+|         |Domain    |Resolution|
+|---------|----------|----------|
+|**Space**|21°-48°N, 114°-141°E|1.5deg|
+|**Time** |1940-2024(ERA5), 1982-2024(OISST), ECMWF-hindcast version 2016 & 2024|Daily / Weekly|  
+
+  
+### ***1. Original Climate Data***  
+
+|        |Description|
+|--------|-----------|
+|Frequency         |Daily/Weekly|
+|Variables         |2-m Air Temperature(T2M), Sea Surface Temperature(SST), Total Precipitation(TP)|
+|Type              |Original Timeseries, Climatological Long-Term Mean, 90/95th Percentile Thresholds(p90/p95)|
+|Resources         |ERA5, OISST(only for SST) and ECMWF-hindcast|
+|Location          |[EastAsiaClimateExtremes/DATA/1.Daily_ERA5_OISST/](./1.Daily_ERA5_OISST/), [2.Weekly_ERA5/](./2.Weekly_ERA5/), [3.Daily_ECMWFhindcasts/](./3.Daily_ECMWFhindcasts/)|
+
+
+### ***2. Processed Extreme Data***
+- List of Extreme Phenomena: *AHT, HR, MHW*
+- Thresholds: p90, p95
+- Location: [EastAsiaClimateExtremes/DATA/0.ExtremeEvents_ERA5_OISST/](./0.ExtremeEvents_ERA5_OISST/)
+
+#### **2.0 Weekly/Monthly Extremeness Metrics**
+|        |Description|
+|--------|-----------|
+|**Extreme Days**      |Number of days in the period when *T2M_e/TP_e/SST_e* exceed zero|
+|**Max. Intensity**    |Peak *T2M_e/TP_e/SST_e* observed during the period|
+|**Impact Factor**     |Cumulative *T2M_e/TP_e/SST_e* over the period|
+>*T2M_e = T2M - thr; TP_e = TP - thr; SST_e = SST - thr*  
+
+#### **2.1 Event Profile**  
+|       |Description|
+|-------|-----------|          
+|**Event Criteria**    |D3G5, D5G2 for *AHT/MHW* and D1G3, D3G3 for *HR*|
+|**Event Meta**        |*N_events, Start/End Date, Duration, Mean/Peak Intensity* and so forth|            
+>*e.g., D3G5 represents minimum three-day **D**uration, permitting **G**aps of up to five days*  
+
+
+
+## Usage  
+
+**Codes for Data Processing and Visualization**
+- Location: [ EastAsiaClimateExtremes/CODES/](./CODES/)
+
+| Code File | Description |
+| ------ | ----- | 
+| [`Extreme_Event_Statistics_and_Visualization_1.ipynb`](./CODES/Extreme_Event_Statistics_and_Visualization_1.ipynb) | Code for timeseries and heatmap visualization |
+| [`Extreme_Event_Statistics_and_Visualization_2.py`](./CODES/Extreme_Event_Statistics_and_Visualization_2.py)| Code for calculating and displaying long-term mean and trend of event statistics |
+| [`Weekly_Extreme_Statistics_and_Visualization.ipynb`](./CODES/Weekly_Extreme_Statistics_and_Visualization.ipynb) | Code for 2-D map visualization of long-term statistics of weekly climate extremes |
+| [`Weekly_Extreme_Statistics_and_Visualization_ECMWF.ipynb`](./CODES/Weekly_Extreme_Statistics_and_Visualization_ECMWF.ipynb) | Code for comparison of ECMWF hindcasts and ERA5 weekly extremes |
+
+## Ouput Details
+- Location: [ EastAsiaClimateExtremes/OUTPUTS/](./OUTPUTS/)
+
+| Outputs  |File Format |Visualization |
+|----------|--------|--------|
+|Daily based extreme events, Yearly event counts|NetCDF, <br>e.g. [*AHT_daily_timeseries__2024-01-01-2024-12-31__p90__D3G5.nc*](./OUTPUTS/AHT_daily_timeseries__2024-01-01-2024-12-31__p90__D3G5.nc)|Timeseries| 
+|Monthly Event Counts+Trend(+/-)|NetCDF|Heatmaps  | 
+|Long-term Mean/Trend of Event Statistics| Numpy, <br>e.g. [*MHW.stats__OISST.p90_D5G2.1982-2024.EA1.5.npz*](./OUTPUTS/MHW.stats__OISST.p90_D5G2.1982-2024.EA1.5.npz)|2D maps   |
+|Count of Extreme Weeks, Mean/Max Intensity| NetCDF, <br>e.g. [*weeklyHR_stats_maps__1940-2024__p90.nc*](./OUTPUTS/weeklyHR_stats_maps__1940-2024__p90.nc)|2D maps   |
+
+
+
+## Reference
+  Westby, Rebecca Marie et al. “Anomalous Temperature Regimes during the Cool Season: Long-Term Trends, Low-Frequency Mode Modulation, and Representation in CMIP5 Simulations.” Journal of Climate 26 (2013): 9061-9076  
+  Hobday, A.J. et al. (2016), A hierarchical approach to defining marine heatwaves, Progress in Oceanography, 141, pp. 227-238, doi: 10.1016/j.pocean.2015.12.014  
+  https://github.com/ecjoliver/marineHeatWaves  
+
+
+
+## Citation
+  Lee, Y., M. Kim, U. Chung (2025). EastAsiaClimateExtremes. GitHub. https://github.com/yyalexlee/EastAsiaClimateExtremes
+
+## Acknowledgments
+  This research is supported by APEC Climate Center. 
