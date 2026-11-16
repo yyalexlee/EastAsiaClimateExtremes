@@ -1,7 +1,7 @@
 ## 💾 Data Download 
 This directory should include historical data on East Asia Climate Extremes isolated from ERA5 and ECMWF. <br>
 
-If you access the dataset below (***Dropbox***), you can download data separately from the following sub-folders:
+If you access the dataset below (***Zenodo***), you can use data separately from the following sub-folders:
 ```bash
 DataFilesforEastAsiaClimateExtremes
 ├── 0.ExtremeEvents_ERA5_OISST
