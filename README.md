@@ -10,22 +10,17 @@ This repository provides historical data on climate extremes across the East Asi
 
 ## Data Download
 
-&nbsp;&nbsp;&nbsp;&nbsp;**0. Extreme Event Profile and Weekly/Monthly Extremeness Metrics (ERA5/OISST)**
-  ```
-  wget -O 0.ExtremeEvents_ERA5_OISST.zip "https://www.dropbox.com/scl/fo/5hcy3r8jxd6o9qaa267bf/AMI0pTgTvZWf1MXq7SgAZwk?rlkey=z3x1kyrynjeg0wctprfk31aj1&st=ryo0cv1h&dl=0"  
-  ```
-&nbsp;&nbsp;&nbsp;&nbsp;**1. Daily Data and Extreme Threshold (ERA5/OISST)**
-  ```
-  wget -O 1.Daily_ERA5_OISST.zip "https://www.dropbox.com/scl/fo/t8082lha97fi5ebqsq77x/ACZu-o6b-b4e05S81-7BkQs?rlkey=d5v7ztkp71nb4d7jx19pgv97u&st=9h8y9v6x&dl=0"  
-  ```
-&nbsp;&nbsp;&nbsp;&nbsp;**2. Weekly Data and Extreme Threshold (ERA5)**
-  ```
-  wget -O 2.Weekly_ERA5.zip "https://www.dropbox.com/scl/fo/w12fdxsv89tfhphrrot1l/AD7IuKrO3LrVvkCN1hEA2c0?rlkey=67vr21cu88jt9q625lzboocao&st=yo63qu2p&dl=0"
-  ```
-&nbsp;&nbsp;&nbsp;&nbsp;**3. Daily Data and Extreme Threshold (ECMWF-hindcast ver.2016/ver.2024)**
-  ```
-  wget -O 3.Daily_ECMWFhindcasts.zip "https://www.dropbox.com/scl/fo/sv3lu1e3qzwwtt6dqnzkq/AEI6Vn0BLPvGmnynbGZ6_Gk?rlkey=8bdbyjjjg472mimxx1lpk9v3b&st=npjwog3p&dl=0"  
-  ```
+All datasets are available on Zenodo as a single ZIP archive:
+
+[Download the complete dataset from Zenodo](https://doi.org/10.5281/zenodo.22139821)
+
+The archive contains the following folders:
+
+- `0.ExtremeEvents_ERA5_OISST`
+- `1.Daily_ERA5_OISST`
+- `2.Weekly_ERA5`
+- `3.Weekly_ECMWFhcst`
+
   
 ## Data Description
 
