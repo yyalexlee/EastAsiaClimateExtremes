@@ -102,6 +102,7 @@ This repository provides historical data on climate extremes across the East Asi
 
 
 ## Citation
+  Kim, M., Y. Lee, U. Chung (2026). EastAsiaClimateExtremes: An AI-Ready Dataset of Weekly Atmospheric and Oceanic Extremes over East Asia for Subseasonal Prediction Research (https://arxiv.org/pdf/2609.08241)  
   Lee, Y., M. Kim, U. Chung (2025). EastAsiaClimateExtremes. GitHub. https://github.com/yyalexlee/EastAsiaClimateExtremes
 
 ## Acknowledgments
