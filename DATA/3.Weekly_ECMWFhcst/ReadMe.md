@@ -16,4 +16,3 @@ curl -L -O -J "URL"
 unzip 3.Weekly_ECMWFhcst.zip
 ```
 
-
